@@ -38,7 +38,7 @@ Qual a função do marcador?
 Ponto no qual o analisador sintático está.
 
 O que significa a função closure()?
-Ela permite com que se verifique as equivalências do núcleo de regras de um estado
+Ela permite com que se verifique as equivalências do núcleo de regras de um estado de forma recursiva.
 
 O que a função goto() faz?
 Ela calcula o próximo estado após a aplicação de uma redução
