@@ -8,18 +8,18 @@ O que são atributos sintetizados?
 São atributos que todas suas dependências apontam de nós filhos para um nó pai. Ou seja, o pai depende dos filhos.
 
 Um analisador LR(1) possui atributos sintetizados ou herdados?
-Herdados.
+Sintetizados.
 
-Em atributos herdados, o percorrimento é pós-ordem ou pré-ordem?
+Em atributos sintetizados, o percorrimento é pós-ordem ou pré-ordem?
 Pós-ordem.
 
 O que são atributos herdados?
-São são todos os atributos que não são sintetizados
+São todos os atributos que não são sintetizados
 
 Um analisador LL utiliza atributos sintetizados ou herdados?
-Sintetizados.
+Herdados.
 
-Em atributos sintetizados, como é o percorrimento?
+Em atributos herdados, como é o percorrimento?
 Pré, pós ou in-ordem.
 
 Dê exemplos da aplicação de um percorrimento pós-ordem.
