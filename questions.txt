@@ -1,0 +1,8 @@
+O que significa a função closure()?
+Ela permite com que se verifique as equivalências do núcleo de regras de um estado
+
+O que a função goto() faz?
+Ela calcula o próximo estado após a aplicação de uma redução
+
+O que a função reduce() faz?
+Ela faz a derivação de uma regra: permite substituir uma subcadeia b por um não terminal A se existir uma regra A -> b
