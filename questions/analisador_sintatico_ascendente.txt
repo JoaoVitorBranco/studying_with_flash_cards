@@ -4,6 +4,9 @@ A construção começa de baixo para cima (botton-up), ou seja, a partir dos tok
 Cite vantagens da analise ascendente (duas).
 É mais eficiente e resolvem melhor gramáticas ambíguas, por não se preocuparem com recursão à esquerda.
 
+O que é a fronteira?
+Forma sentencial atual na derivação
+
 O que significa LR(1)?
 L: Lê o texto de entrada da esquerda para a direita; R: Constroi a derivação da direita para a esquerda; 1: Usa um símbolo de entrada (lookahead)
 
