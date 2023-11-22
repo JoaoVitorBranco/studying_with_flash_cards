@@ -1,0 +1,29 @@
+O que é um atributo?
+Valor em que se armazenam informações necessárias para se realizar análise semântica. Também pode ser qualquer propriedade para construção de uma linguagem de programação.
+
+O que é uma gramática de atributos?
+Coleção de regras semânticas.
+
+O que são atributos sintetizados?
+São atributos que todas suas dependências apontam de nós filhos para um nó pai. Ou seja, o pai depende dos filhos.
+
+Um analisador LR(1) possui atributos sintetizados ou herdados?
+Herdados.
+
+Em atributos herdados, o percorrimento é pós-ordem ou pré-ordem?
+Pós-ordem.
+
+O que são atributos herdados?
+São são todos os atributos que não são sintetizados
+
+Um analisador LL utiliza atributos sintetizados ou herdados?
+Sintetizados.
+
+Em atributos sintetizados, como é o percorrimento?
+Pré, pós ou in-ordem.
+
+Dê exemplos da aplicação de um percorrimento pós-ordem.
+Análise de operações aritiméticas infixadas (4 + 3)
+
+Dê exemplos da aplicação de um percorrimento pré-ordem.
+Análise de operações aritiméticas prefixadas (+ 4 3)

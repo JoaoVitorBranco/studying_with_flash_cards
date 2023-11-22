@@ -1,0 +1,11 @@
+O que é uma análise semântica?
+É aquela na qual se obtém o significado de uma estrutura sintática
+
+O que é uma análise semântica dinâmica e dê um exemplo de validação que ela pode fazer.
+É aquela que ocorre em tempo de execução. Exemplo: divisão por zero.
+
+O que é uma análise semântica estática e dê um exemplo de validação que ela pode fazer.
+É aquela que ocorre antes da execução do código. Exemplo: validação de tipos.
+
+O que é uma árvore AST?
+É uma árvore sintática na qual os operadores são as raízes e os operandos as folhas. Esta árvore explicita os operadores

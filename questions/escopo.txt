@@ -1,0 +1,14 @@
+O que é um escopo?
+Local onde foi realizado uma declaração
+
+O que é uma declaração explícita?
+Nome deve ser declarado antes de ser utilizado, ex: int num.
+
+O que é uma declaração implícita?
+Nome não precisa ser declarado antes de ser utilizado, ex: num = 10.
+
+O que é um escopo estático?
+É o escopo que segue o leiaute do programa. Ao definir uma variável fora e dentro de um escopo, ao fazer as alterações dentro do escopo, a variável fora do escopo não é alterada.	
+
+O que é um escopo dinâmico?
+É o escopo que segue a ordem de execução do programa. Ao definir uma variável fora e dentro de um escopo, ao fazer as alterações dentro do escopo, a variável fora do escopo é alterada.

@@ -1,4 +1,5 @@
 import random
+import os
 
 class Card:
     question: str
@@ -16,7 +17,10 @@ class CardList:
 
     def __init__(self, cards:list = []):
         self.cards = cards
-    
+
+    def clean(self):
+        self.cards = []
+
     def append(self, card:Card):
         self.cards.append(card)
     
@@ -38,51 +42,66 @@ class CardList:
     def shuffle(self):
         random.shuffle(self.cards)
 
-    def import_file(self) -> bool:
-        if(len(self.cards) == 0):
-            with open('questions.txt', 'r', encoding='utf-8') as f:
-                lines = [line for line in f.readlines() if line != "\n"]
-                if(len(lines) % 2 != 0):
-                    return False
-                
-                for idx in range(int(len(lines)/2)):
-                    question = lines[idx*2].replace("\n", "")
-                    answer = lines[idx*2+1].replace("\n", "")
-                    self.append(Card(question, answer))
-                f.close()
+    def import_file(self, file_name: str) -> bool:
+        with open("questions/"+file_name+".txt", 'r', encoding='utf-8') as f:
+            lines = [line for line in f.readlines() if line != "\n"]
+            if(len(lines) % 2 != 0):
+                return False
+            
+            for idx in range(int(len(lines)/2)):
+                question = lines[idx*2].replace("\n", "")
+                answer = lines[idx*2+1].replace("\n", "")
+                self.append(Card(question, answer))
+            f.close()
 
-            return True
-        else:
-            return False
+        return True
 
-
-def main():
-    # 1: creating list of flash cards
+def generate_cardlist():
     cardList = CardList()
     print("====== STEP 1 : IMPORT QUESTIONS ======")
-    op = input("# Enter 1 to add a card, 2 to view all cards, 3 to stop adding , 4 to remove, 5 to import 'questions.txt': ")
+    op = input("# Enter 1 to add a card, 2 to view all cards, 3 to stop adding , 4 to remove, 5 to import a package of questions, 6 exam import (import all questions): ")
     while op != "3":
+
         if op == "1":
             question = input("# Enter question: ")
             answer = input("# Enter answer: ")
             cardList.append(Card(question, answer))
+
         elif op == "2":
             cardList.show()
+
         elif op == "4":
             cardList.show()
             question = int(input("# Enter the index of the card that you want to remove: "))
             ok = cardList.remove(question)
             if not ok:
                 print("# Invalid index")
+
         elif op == "5":
-            ok = cardList.import_file()
+            list_of_questions = [question.replace('.txt', '') for question in os.listdir("questions/")]
+            questions_name = ''
+            while(questions_name not in list_of_questions):
+                questions_name = input(f"# Enter the name of the file that you want to import. Select one of those files {list_of_questions}: ")
+            cardList.clean()
+            ok = cardList.import_file(questions_name)
             if not ok:
                 print("# You already have cards in your list or the file is wrong formatted")
+    
+        elif op == "6":
+            cardList.clean()
+            list_of_questions = [question.replace('.txt', '') for question in os.listdir("questions/")]
+            for question in list_of_questions:
+                cardList.import_file(question)
         op = input("# Enter 1 to add a card, 2 to view all cards, 3 to stop adding , 4 to remove: ")
+    return cardList
+
+def main():
+    # 1: creating list of flash cards
+    cardList = generate_cardlist()
 
     # 2: selecting mode to operating
     print("\n\n====== STEP 2 : PRACTICE ======")
-    op = input("# Enter 1 to practice, 2 to show all questions, 3 to stop: ")
+    op = input("# Enter 1 to practice, 2 to show all questions, 3 to stop, 4 to import new cardlist: ")
     while op != "3":
         if op == "1":
             cardList.shuffle()
@@ -103,7 +122,9 @@ def main():
             print("# You have answered all questions right =D")
         elif op == "2":
             cardList.show()
-        op = input("# Enter 1 to practice, 2 to show all questions, 3 to stop: ")
+        elif op == "4":
+            cardList = generate_cardlist()
+        op = input("# Enter 1 to practice, 2 to show all questions, 3 to stop, 4 to import new cardlist: ")
 
 
 if __name__ == '__main__':
