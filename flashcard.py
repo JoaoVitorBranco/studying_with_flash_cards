@@ -9,7 +9,7 @@ class Card:
         self.answer = answer
     
     def __str__(self):
-        return f"P': {self.question} | R: {self.answer}"
+        return f"P: {self.question} | R: {self.answer}"
     
 class CardList:
     cards: list
@@ -85,14 +85,14 @@ def main():
     op = input("# Enter 1 to practice, 2 to show all questions, 3 to stop: ")
     while op != "3":
         if op == "1":
+            cardList.shuffle()
             not_full_right = True
             list_of_rights = [False] * len(cardList.cards)
             while(not_full_right):
                 print("# You need to answer all questions right to stop this practicing")
-                cardList.shuffle()
                 for idx, card in enumerate(cardList.cards):
                     if(list_of_rights[idx] == False):
-                        print("P: " + card.question)
+                        print("\nP: " + card.question)
                         input("# Press enter to see the answer")
                         print("R: " + card.answer)
                         answer = input("# Yay/Nay? ")
