@@ -1,6 +1,9 @@
 O que é um escopo?
 Local onde foi realizado uma declaração
 
+O que é um bloco de código?
+Estrutura que contém declarações, introduzindo um escopo novo ao programa.
+
 O que é uma declaração explícita?
 Nome deve ser declarado antes de ser utilizado, ex: int num.
 
@@ -12,3 +15,6 @@ O que é um escopo estático?
 
 O que é um escopo dinâmico?
 É o escopo que segue a ordem de execução do programa. Ao definir uma variável fora e dentro de um escopo, ao fazer as alterações dentro do escopo, a variável fora do escopo é alterada.
+
+Como pode ser controlado o escopo na execução de um programa?
+Utilizando uma pilha, pode se armazenar as variáveis e seus valores, e ao sair do escopo, pode se desempilhar as variáveis. Deve se ressaltar que as variáveis de escopos acimas devem ser passadas para escopos abaixo para que possam ser utilizadas.

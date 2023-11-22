@@ -29,7 +29,7 @@ O que é uma alça?
 É uma subcadeia de entrada + regra a ser aplicada a fim de reduzir esta subcadeia atual, representando a derivação de uma regra.
 
 O que é a função shift()?
-Ela calcula o próximo estado após avançar a entrada e mudar o lookahead.
+Ela calcula o próximo estado após avançar a entrada.
 
 O que é o núcleo de um estado?
 São as regras que o iniciam.

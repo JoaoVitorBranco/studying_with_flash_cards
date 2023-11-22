@@ -1,0 +1,23 @@
+Como saber qual operador possui maior precedência?
+O que apresenta maior precedência está escrito abaixo dos outros.
+
+O que o símbolo RESULT representa?
+É uma palavra reservada do CUP que armazena uma operação realizada na análise semântica e armazena ao não terminal à esquerda de uma regra identificada pela análise sintática.
+
+Por que existe um terminal e não terminal anotado com tipo Integer?
+Eles permitem com que seja feita uma análise semântica durante a análise sintática no CUP, no qual os terminais e/ou não terminais podem assumir valores.
+
+Para que serve a anotação e1 em uma expressão como expr:e1?
+Ela serve para que o valor de e1, referente à expr, seja interpretado e utilizado na análise semântica. Ele representa um atributo.
+
+Como a análise semântica pode ser executada no CUP?
+Utilizando os caracteres "{::}" para delimitar o código da análise semântica, especificando ações semânticas.
+
+O que faz a parte "Lista de símbolos"?
+Parte do código que se definem símbolos terminais e não terminais da gramática
+
+O que faz a parte "Precedência e associatividade"?
+Especifica recedência e associatividade dos terminais.
+
+O que faz a parte "Regras da gramática"?
+Descrevem as regras gramaticais, que podem possuir ações semânticas associadas.

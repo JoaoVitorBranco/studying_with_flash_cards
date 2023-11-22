@@ -1,5 +1,5 @@
 O que é um atributo?
-Valor em que se armazenam informações necessárias para se realizar análise semântica. Também pode ser qualquer propriedade para construção de uma linguagem de programação.
+Valor em que se armazenam informações necessárias para se realizar análise semântica, associados a terminais ou não terminais. Também pode ser qualquer propriedade para construção de uma linguagem de programação.
 
 O que é uma gramática de atributos?
 Coleção de regras semânticas.

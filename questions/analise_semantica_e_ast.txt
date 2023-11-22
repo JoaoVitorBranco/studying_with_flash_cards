@@ -9,3 +9,9 @@ O que é uma análise semântica estática e dê um exemplo de validação que e
 
 O que é uma árvore AST?
 É uma árvore sintática na qual os operadores são as raízes e os operandos as folhas. Esta árvore explicita os operadores
+
+O que é uma tradução dirigida por sintaxe?
+É uma característica presente em certos analisadores sintáticos que, juntamente com a análise sintática, ocorre a análise semântica.
+
+Como a AST pode ser processada para gerar significado de um programa?
+Ela pode conter todo/parte de um programa para gerar um código posteriormente ou executar alguma operação, dependendo de como é percorrida. Por exemplo, pré-order seria escolhido para executar um código, e pós-order para realizar operações aritiméticas.
