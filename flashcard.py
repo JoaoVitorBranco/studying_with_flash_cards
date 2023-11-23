@@ -81,7 +81,11 @@ def generate_cardlist():
             list_of_questions = [question.replace('.txt', '') for question in os.listdir("questions/")]
             questions_name = ''
             while(questions_name not in list_of_questions):
-                questions_name = input(f"# Enter the name of the file that you want to import. Select one of those files {list_of_questions}: ")
+                questions_name = input(f"# Enter the name of the package folder that you want to import. Select one of those files {list_of_questions}: ")
+            list_of_questions = [questions_name + "/" + question.replace('.txt', '') for question in os.listdir("questions/"+questions_name)]
+            questions_name = ''
+            while(questions_name not in list_of_questions):
+                questions_name = input(f"# Enter the name of the package file that you want to import. Select one of those files {list_of_questions}: ")
             cardList.clean()
             ok = cardList.import_file(questions_name)
             if not ok:
@@ -90,6 +94,10 @@ def generate_cardlist():
         elif op == "6":
             cardList.clean()
             list_of_questions = [question.replace('.txt', '') for question in os.listdir("questions/")]
+            questions_name = ''
+            while(questions_name not in list_of_questions):
+                questions_name = input(f"# Enter the name of the package folder that you want to import. Select one of those files {list_of_questions}: ")
+            list_of_questions = [questions_name + "/" + question.replace('.txt', '') for question in os.listdir("questions/"+questions_name)]
             for question in list_of_questions:
                 cardList.import_file(question)
         op = input("# Enter 1 to add a card, 2 to view all cards, 3 to stop adding , 4 to remove: ")

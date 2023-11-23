@@ -1,0 +1,47 @@
+O que é um sistema de arquivos com alocação contínua?
+É um sistema que armazena de forma contínua no disco blocos de arquivos.
+
+Quais são as vantagens de um sistema de arquivos com alocação contínua?
+Desempenho sequencial e simplicidade no uso.
+
+Quais são as desvantagens de um sistema de arquivos com alocação contínua?
+Fragmentação externa, havendo a necessidade de compactação (aumentando o processamento); ter a necessidade prévia de saber o tamanho do arquivo para alocar espaço necessário; e sempre ter que atualizar a lista de espaços livres.
+
+O que acontece se um bloco de dados estiver corrompido em um sistema de arquivos com alocação contínua?
+Perde um bloco, mas não todos.
+
+O que é um sistema de arquivos com alocação encadeada?
+É um sistema que armazena blocos de arquivos de forma encadeada, ou seja, cada bloco de arquivo possui um ponteiro para o próximo bloco. O disco salva apenas o endereço do primeiro bloco do arquivo.
+
+Quais são as vantagens de um sistema de arquivos com alocação encadeada?
+Não há fragmentação externa, pois os blocos podem ser alocados em qualquer lugar do disco.
+
+Quais são as desvantagens de um sistema de arquivos com alocação encadeada?
+Desempenho sequencial ruim, pois o acesso aos blocos é feito de forma aleatória; e a necessidade de armazenar o ponteiro para o próximo bloco, aumentando o tamanho do arquivo (dessa forma não armazenando os blocos em múltiplos de 2)
+
+O que acontece se um bloco de dados estiver corrompido em um sistema de arquivos com alocação encadeada?
+Perde todos os blocos.
+
+O que é um sistema de arquivos com tabela FAT?
+O ponteiro não está mais no bloco de dados, mas sim em uma tabela que fica no disco.
+
+Quais são as vantagens de um sistema de arquivos com tabela FAT?
+Acesso aleatório mais eficiente (sem acesso ao disco), e todo o espaço do bloco para dados (2^n).
+
+Quais são as desvantagens de um sistema de arquivos com tabela FAT?
+A tabela deve estar na memória.
+
+O que acontece se um bloco de dados estiver corrompido em um sistema de arquivos com tabela FAT?
+Como a referência dos blocos está na tabela, não perde todos os dados.
+
+Como se realiza o acesso aleatório a um arquivo em um sistema de arquivos com tabela FAT?
+Primeiro, deve ser obtido o endereço do primeiro bloco. Depois, deve seguir a cadeia de ponteiros da tabela até encontrar o novo bloco. Esse novo bloco é utilizado na próxima chamada de sistema de leitura.
+
+O que são I-Nodes?
+São estruturas de dados que armazenam informações sobre os arquivos, como permissões, data de criação, data de modificação, tamanho, etc. Ele identifica todos os blocos do arquivo.
+
+Quais são as vantagens de um sistema de arquivos com I-Nodes?
+Somente carregado quando o arquivo está aberto.
+
+Quais são as desvantagens de um sistema de arquivos com I-Nodes?
+Tamanho do arquivo pode aumentar muito. Porém, pode ser resolvido com blocos indiretos: o I-Node aponta para um bloco que aponta para os blocos de dados.

@@ -1,0 +1,29 @@
+O que é o controlador de dispositivo?
+É um controlador que fica no dispositivo, e utiliza registradores para controlar/ler estado do dispositivo.
+
+O que é um device driver? Cite duas características dele.
+Código no OS que controla o dispositivo. Ele é executado no espaço kernel majoritariamente, e não se utiliza de system calls.
+
+Como é o funcionamento dos device drivers?
+1. Verifica se entrada é válida; 2. Verifica se dispositivo está em uso (se estiver espera); 3. Verifica se pode fazer requisição ao hardware; 4. Inicia controle; 5. Após envio dos comandos, ou fica bloqueado esperando controlador executar o trabalho, ou finaliza operação sem ficar bloqueado. 
+
+O que é uma Interface Uniforme de Device Driver?
+É uma interface que permite que o OS possa controlar qualquer dispositivo, sem precisar saber como o dispositivo funciona.
+
+Como a Interface Uniforme de Device Driver garante uniformidade?
+O OS define um conjunto de funções que o device driver deve fornecer para cada dispositivo. Dessa forma, o device driver mantém tabela de ponteiros para essas funções. Quando o driver é carregado, o OS chama os ponteiros nesta tabela a fim de realizar uma chamada indireta dessas funções. A tabela é uma interface entre o Driver e o OS.
+
+Qual das quatro camadas de software executa a operação de computar a trilha, o setor e a cabeça para uma leitura de disco?
+Device Driver.
+
+Qual das quatro camadas de software executa a operação de escrever comandos para registradores de um dispositivo?
+Device Driver.
+
+Qual das quatro camadas de software executa a operação de verificar se o usuário tem permissão para usar um aplicativo?
+Software de E/S indepoendente de disco
+
+Qual das quatro camadas de software executa a operação de converter inteiros binários para ASCII na impressão?
+Interface de usuário.
+
+Explique como um sistema operacional pode facilitar a instalação de um novo dispositivo sem a necessidade de recompilar o OS.
+Existe uma tabela que possui ponteiros para funções a serem fornecidas pelo device driver para cada dispositivo. Quando um novo dispositivo se conecta, ele deve fornecer uma tabela de funções específicas dele, e deve ser as mesmas esperadas pela tabela do OS.

@@ -1,0 +1,11 @@
+O que é Journaling?
+Abordagem de um sistema de arquivos que cria logs do que o sistema está a fazer, para que se possa recuperar de uma falha de energia ou de um crash do sistema de forma mais rápida e eficiente.
+
+Como funciona a remoção de um arquivo sem Journaling no Linux?
+1. Remove o arquivo do diretório; 2. Libera o i-node do arquivo; 3. Libera o bloco de dados do arquivo.
+
+Como funciona a remoção de um arquivo com Journaling no Linux?
+1. Adiciona um log com 3 ações a serem completadas; 2. Log é armazenado no disco; 3. Inicio das operações. 4. Quando operações são terminadas, entrada é apagada.
+
+Fale duas características de um sistema de arquivos com Journaling.
+1. Operações logadas devem ser idempotentes: repetidas quantas vezes forem necessárias; 2. Operações devem ser atômicas: ou todas são executadas ou nenhuma é executada.

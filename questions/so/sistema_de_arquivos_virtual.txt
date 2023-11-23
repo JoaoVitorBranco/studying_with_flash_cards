@@ -1,0 +1,8 @@
+O que é um Sistema de Arquivos Virtual (VFS)?
+É um modo de operar com diversos meios de armazenamento contendo sistemas de arquivos distintos. A ideia é abstrair parte do sistema de arquivos comum a todos os sistemas
+
+Quais são as duas interfaces de um VFS?
+Uma para processos do user e uma para o sistema de arquivos concreto.
+
+Como um novo sistema de arquivos pode ser integrado ao VFS do Linux?
+Um novo sistema de arquivos deve fornecer uma interface compatível com o sistema de arquivos concreto do Linux.

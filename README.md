@@ -22,3 +22,4 @@ This Python script implements a simple flashcard practice system. It allows user
 Execute the script and follow the on-screen instructions to interact with the flashcard system.
 
 Feel free to customize and enhance the script to suit your specific needs!
+E:/Arquivos Área de Trabalho/Arquivos Área de Trabalho/Mauá/Mauá - Engenharia da Computação - II/ECM253 - Linguagens Formais, Autômatos e Compiladores/4 BI/studying_with_flash_cards

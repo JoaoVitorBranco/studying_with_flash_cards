@@ -1,0 +1,5 @@
+O que são blocos de um arquivo?
+Unidade de alocação de arquivos.
+
+Cite duas formas de gerenciar-se blocos livres.
+1. Lista encadeada: cada slot armazena o número de bloco de disco livre; 2. Bitmap: cada bit representa um bloco de disco, sendo que cada binário indica se o bloco está livre ou ocupado.
