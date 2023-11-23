@@ -58,8 +58,9 @@ class CardList:
 
 def generate_cardlist():
     cardList = CardList()
+    TERMINAL_QUESTION_STRING = "# Enter 1 to add a card, 2 to view all cards, 3 to start practicing mode , 4 to remove, 5 to import a package of questions, 6 exam import (import all questions): "
     print("====== STEP 1 : IMPORT QUESTIONS ======")
-    op = input("# Enter 1 to add a card, 2 to view all cards, 3 to stop adding , 4 to remove, 5 to import a package of questions, 6 exam import (import all questions): ")
+    op = input(TERMINAL_QUESTION_STRING)
     while op != "3":
 
         if op == "1":
@@ -100,7 +101,7 @@ def generate_cardlist():
             list_of_questions = [questions_name + "/" + question.replace('.txt', '') for question in os.listdir("questions/"+questions_name)]
             for question in list_of_questions:
                 cardList.import_file(question)
-        op = input("# Enter 1 to add a card, 2 to view all cards, 3 to stop adding , 4 to remove: ")
+        op = input(TERMINAL_QUESTION_STRING)
     return cardList
 
 def main():
@@ -109,7 +110,8 @@ def main():
 
     # 2: selecting mode to operating
     print("\n\n====== STEP 2 : PRACTICE ======")
-    op = input("# Enter 1 to practice, 2 to show all questions, 3 to stop, 4 to import new cardlist: ")
+    TERMINAL_PRACTICE_STRING = "# Enter 1 to practice, 2 to show all questions, 3 to stop, 4 to import new cardlist: "
+    op = input(TERMINAL_PRACTICE_STRING)
     while op != "3":
         if op == "1":
             cardList.shuffle()
@@ -127,12 +129,13 @@ def main():
                             list_of_rights[idx] = True
                 if(all(list_of_rights)):
                     not_full_right = False
-            print("# You have answered all questions right =D")
+                print(f"\n# You got {list_of_rights.count(True)}/{len(list_of_rights)} right answers")
+            print("# You have answered all questions right =D\n")
         elif op == "2":
             cardList.show()
         elif op == "4":
             cardList = generate_cardlist()
-        op = input("# Enter 1 to practice, 2 to show all questions, 3 to stop, 4 to import new cardlist: ")
+        op = input(TERMINAL_PRACTICE_STRING)
 
 
 if __name__ == '__main__':
