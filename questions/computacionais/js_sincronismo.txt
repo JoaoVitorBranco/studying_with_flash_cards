@@ -1,0 +1,35 @@
+O que é o Modelo Single Threaded?
+Único fluxo de execução.
+
+Quais são os dois modelos Single Threaded?
+Modelo síncrono/bloqueante e assíncrono/não-bloqueante.
+
+O que a função setTimeout() faz?
+Executa uma função após um determinado tempo, enfileirando as funções após o tempo determinado.
+
+O que é o Inferno de Callback?
+Quando temos muitos callbacks aninhados.
+
+Quais são as dificuldades do Inferno de Callback?
+Legibilidade e dificuldade em saber a ordem dos parâmetros.
+
+O que é o Promises?
+Promises são objetos que representam a eventual conclusão ou falha de uma operação assíncrona.
+
+Quais são os 3 estados de uma Promise? Explique cada um deles.
+Pending: Estado inicial, não foi realizada e nem rejeitada. Fulfilled: A operação foi realizada com sucesso. Rejected: A operação falhou, levantando um erro.
+
+O que é o método .then()?
+Método que é chamado quando a Promise é resolvida.
+
+O que é o método .catch()?
+Método que é chamado quando a Promise é rejeitada.
+
+O que é async e onde é usado?
+É uma palavra-chave que é usada para definir uma função assíncrona, precedendo o nome de uma função.
+
+O que uma função async retorna?
+Uma Promise.
+
+O que é await e onde é usado?
+É uma palavra-chave que é usada para esperar uma Promise / função async ser resolvida, usada ao chamar uma função async, executando a função como se fosse síncrona.

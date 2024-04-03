@@ -1,0 +1,8 @@
+Qual a vantagem de usar JS no lado do servidor?
+Única vantagem de programação em toda a "pilha" de desenvolvimento.
+
+Para que serve o npm?
+Para obter pacotes e criar projetos com facilidade.
+
+O que é o npx?
+Executa pacotes npm instalados localmente ou remotos.

@@ -1,0 +1,83 @@
+O que significa o JS ser dinamicamente tipado?
+Tipo da expressão é inferido em tepo de execução
+
+Diferencie "let" e "var".
+Let é uma variável de escopo de bloco, enquanto var é de escopo de função ou global
+
+Cite tipos primitivos de variável em JS.
+boolean, null, number, string, undefined, ...
+
+Cite objetos em JS.
+JSON, Array, Classes Wrapper (String, Number, Boolean), Date, Math, function, ...
+
+O que é coerção?
+Conversão de um tipo de dado para outro, podendo ser alterados para fazerem sentido em uma operação.
+
+Quais são os 2 tipos de coerção? Descreva-as.
+Implicita e Explicita. Implicita é quando o JS faz a conversão automaticamente, enquanto a explicita é quando o programador faz a conversão.
+
+Dê um exemplo de código para Coerção explicita.
+console.log(2 + '3');
+
+Dê um exemplo de código para Coerção implicita.
+console.log(2 + Number('3'));
+
+Quais são as 2as possíveis comparações existentes no JS? Diferencie-as.
+"==" e "===". A primeira compara o valor, enquanto a segunda compara o valor e o tipo.
+
+Dê o resultado para as seguintes comparações: a) 1 == 1 b) 1 == '1' c) 1 === '1' d) 1 === 1 e) true == 1 f) 1 == [1] g) null == null h) null == undefined i) [] == false
+a) true b) true c) false d) true e) true f) true g) true h) true i) true
+
+v1 = [100]; v1[10] = 2; console.log(v1.length); console.log(v1[9])
+11\n undefinded
+
+O que o método "filter" faz?
+Cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
+
+O que o método "map" faz?
+Cria um novo array com os resultados da chamada de uma função para cada elemento do array.
+
+O que o método "reduce" faz?
+Aplica uma função a um acumulador e a cada valor de um array (da esquerda para a direita) para reduzi-lo a um único valor.
+
+O que o método "every" faz?
+Testa se todos os elementos do array passam pelo teste implementado pela função fornecida.
+
+Como se inicializa uma função por bloco?
+function nome() {}
+
+Como se inicializa uma função anônima?
+const nome = function() {};
+
+Como se inicializa uma função arrow?
+const nome = () => {};
+
+Como descrever uma arrow function que possui apenas um parâmetro?
+const nome = par => {};
+
+Como descrever uma arrow function que possui apenas um parâmetro e retorna o dobro do valor?
+const nome = par => par * 2;
+
+Por que o seguinte código está errado: const ehPar = (n) => { return n % 2 == 0; }; ?
+Porque como possui apenas uma linha, não é necessário o uso de chaves, ou necessita do uso do return.
+
+O que é uma função cidadã de primeira classe?
+É uma função que: 1) pode ser passada como argumento de função; 2) pode ser devolvida por uma função; 3) pode ser atribuida à variável.
+
+O que é uma função de alta ordem?
+É uma função que aceita outra função como argumento ou retorna uma função.
+
+O que é uma função interna? De quais escopos ela consegue acessar variáveis?
+É uma função que é declarada dentro de outra função. Ela consegue acessar variáveis do escopo interno e do escopo externo.
+
+O que é o escopo interno?
+É o escopo de uma função interna, delimitado pelas chaves da função interna.
+
+O que é o escopo externo?
+É o escopo da função que contém a função interna, delimitado pelas chaves da função externa.
+
+O que é um closure?
+É uma função que "lembra" do ambiente em que foi criada, podendo acessar variáveis do escopo externo.
+
+Quais são as formas de acessar um atributo de um JSON?
+json.atributo ou json['atributo']
