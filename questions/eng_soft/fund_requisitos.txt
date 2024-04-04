@@ -1,0 +1,47 @@
+O que são RF?
+Descrevem o que um sistema deve fazer, ou seja, suas funcionalidades, seu comportamento.
+
+Como pode ser descrito um RF?
+Por um Modelo de Casos de Uso (UML), forma textual ou User Stories.
+
+O que são RNF?
+Descrevem como um sistema deve ser, ou seja, suas características, suas propriedades, como ele deve realizar suas ações, suas qualidades.
+
+Como pode ser descrito um RNF?
+Forma textual.
+
+O que é um RNF de Usabilidade? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser para ser fácil de usar. Exemplo: O front-end fará uma interface user-friendly para facilitar o usuário; colocará mensagens de erro intuitivas, ...
+
+O que é um RNF de Desempenho? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser para ser rápido. Exemplo: O sistema deve responder a uma requisição em menos de 1 segundo.
+
+O que é um RNF de Capacidade? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser para suportar uma certa demanda. Exemplo: O sistema deve suportar 1000 usuários simultâneos; cada usuário terá 10 pedidos no máximo armazenados em seu histórico, ...
+
+O que é um RNF de Confiabilidade? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser para ser confiável. Exemplo: O sistema deve ter um backup diário; o sistema deve se recuperar de falhas automaticamente, ...
+
+O que é um RNF de Portabilidade? Cite um exemplo.
+São RNF que descrevem em quais plataformas o sistema pode ser executado. Exemplo: O sistema deve rodar em qualquer navegador; o sistema deve rodar em qualquer sistema operacional, ...
+
+O que é um RNF de Entrega? Cite um exemplo.
+São RNF que descrevem frequência e regularidade de entregas do sistema. Exemplo: O sistema deve ser entregue em 3 meses; o sistema deve ser entregue com um manual de uso, patch notes do LOL de 1 em 1 mês, ...
+
+O que é um RNF de Implementação? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser implementado. Exemplo: O sistema deve ser implementado em Java; o sistema deve ser implementado em um servidor Linux, ...
+
+O que é um RNF de Padronização? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser padronizado. Exemplo: O sistema deve seguir o padrão MVC; o sistema deve seguir o padrão REST, devem seguir tal padrão de cores, ...
+
+O que é um RNF de Interoperabilidade? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser para se comunicar com outros sistemas. Exemplo: O sistema deve exportar e importar arquivos CSV e XML, ...
+
+O que é um RNF Ético? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser para ser ético. Exemplo: O sistema não deve armazenar dados sensíveis do usuário; o sistema não poderá vazar dados de uma boate (exemplo de aula), ...
+
+O que é um RNF de Privacidade? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser para garantir a privacidade do usuário. Exemplo: O sistema deve armazenar dados que não serão compartilhados com patrocinadores; deve seguir a LGPD, ...
+
+O que é um RNF de Segurança? Cite um exemplo.
+São RNF que descrevem como o sistema deve ser para garantir a segurança do usuário. Exemplo: O sistema deve ter um login seguro (sem SQLi); deve usar criptografia X; comunicação HTTPS, ...

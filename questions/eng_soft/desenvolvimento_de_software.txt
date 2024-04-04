@@ -1,0 +1,62 @@
+Cite preocupações da engenharia de software.
+Tempo, custo, entregas (sem erros), e esforço para manter softwares existentes.
+
+O que é um software?
+Instruções de computadores que são executadas e fornecem um resultado esperado.
+
+O que é um software de sistemas? Dê um exemplo.
+É um software que é usado por outros softwares. Exemplos são: compiladores, OS, componentes, ...
+
+O que é um software de aplicação? Dê um exemplo.
+É um software que é usado para resolver um problema de negócio. Exemplos são: sistema de vendas, DevMédias, sistema de controle de estoque, ...
+
+O que é um software de tempo real? Dê um exemplo.
+É um software que interage com eventos em tempo real. Exemplos são: sistema de metrô, avião, usina nucleares, ...
+
+O que é um software científico e de engenharia? Dê um exemplo.
+É um software que é usado para resolver problemas científicos e de engenharia. Exemplos são: simulações de terremotos, simulações de carros, ...
+
+O que é um software embarcado/embutido? Dê um exemplo.
+É um software que "reside" dentro de um produto. Exemplos são: software de controle de um carro, de controle de micro-ondas, de air-bags, de semáforos, ...
+
+O que é um software para linhas de produtos (prateleira)? Dê um exemplo.
+É um software que atende uma necessidade específica para ser usada por usuários distintos. Exemplos são: planilhas, editores de texto, jogos, ...
+
+O que é um software para web? Dê um exemplo.
+É um software que é acessado por um navegador. Exemplos são: Google, Facebook, Twitter, fóruns, portais, ...
+
+O que é um software para IA? Dê um exemplo.
+É um software que resolvem problemas complexos que não são possíveis de serem resolvidos por computação ou análise direta. Exemplos são: robótica, redes neurais, reconhecimento de voz, de vídeo, ...
+
+O que é um software para computação ubíqua? Dê um exemplo.
+É um software que é acessado por dispositivos móveis que se comunicam através das redes, interligados com o conceito de IoT. Exemplos são: softwares para dispositivos móveis, smartwatches, smartTVs, ...
+
+O que é um software aberto? Dê um exemplo.
+É um software que é disponibilizado com o código fonte. Exemplos são: Linux, Apache, MySQL, PHP, sistemas E-Learning, sistemas de Banco de Dados, ...
+
+O que foi a crise do software? Cite tópicos envolvendo-a.
+A crise do software foi uma conferência para discutir alguns problemas que estavam ocorrendo com o desenvolvimento de software, tais como: desenvolvimento informal não adequado, altos custos, grandes atrasos, difícil manutenção, entregas não confiáveis, ...
+
+Quais foram as constatações feitas na crise do software?
+1) Crise da Tecnologia: hardware evoluia mais rápido que software; 2) Crise de Oferta: demanda maior que a capacidade de desempenho; 3) Crise de Manutenção: projetos malfeitos não permitiam fácil manutenção; 4) Custos de hardware mais baixos que software.
+
+Quais são os mitos do software no ponto de vista do gerente?
+Aumento da equipe resolve atraso, tercerizar resolve problemas de gestão, ...
+
+Quais são os mitos do software no ponto de vista do desenvolvedor?
+Não tem como avaliar software antes da entrega, único produto que realmente interessa é o código, quando acaba o desenvolvimento, não existe mais trabalho para Engenheiro de Software, ...
+
+Quais são os mitos do software no ponto de vista do cliente?
+Basta a visão geral dos objetivos para iniciar o desenvolvimento, alteração de requisitos no meio do projeto é fácil, ...
+
+Dê exemplos de software com mais de uma categoria.
+Software de visão computacional para carro autônomo: IA e Embarcado ; Software Linux: Aberto e de Sistemas; Software de gestão de eventos de uma faculdade: WEB e de Aplicação, ...
+
+O que são softwares legado?
+São softwares que foram desenvolvidos há muito tempo e que ainda são utilizados. Geralmente são difíceis de manter e de se adaptar a novas tecnologias.
+
+Relacione softwares legado com desenvolvimento de software.
+Softwares legado são softwares que foram desenvolvidos há muito tempo e que ainda são utilizados. O desenvolvimento de software tenta lidar com estes legados, a partir de modernização, migração ou substituição destes.
+
+Cite problemas do software legado.
+Dificuldade de manutenção, riscos de segurança, incompatibilidade, baixo desempenho, custo na manutenção, ...
