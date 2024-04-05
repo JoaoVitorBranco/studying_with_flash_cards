@@ -1,0 +1,20 @@
+O que é um Modelo:
+Representação abstrata de um objeto/sistema real.
+
+O que é uma Abstração?
+Aspectos essenciais de um contexto qualquer.
+
+O que é um Modelo de Banco de Dados?
+Descrição da estrutura de um banco de dados.
+
+O que é um Modelo Conceitual?
+Modelo de dados sem depender da tecnologia.
+
+O que é um Modelo Lógico?
+Modelo que descreve a estrutura dos dados.
+
+O que é um Modelo Físico?
+Descreve dados no nível mais baixo.
+
+Quais são os 2 processos da modelagem?
+1) Levantamento de requisitos, no qual se leva em consideração o Universo de Descurso, e se retira dele as Especificações de Requisitos; 2) Modelagem Conceitual, que leva em conta os Requisitos anteriores, e resulta em um Esquema Conceitual.

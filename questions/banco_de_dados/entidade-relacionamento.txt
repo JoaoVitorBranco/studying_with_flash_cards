@@ -1,0 +1,47 @@
+O que é uma entidade?
+Objeto no mundo real que se deseja manter informações em um BD.
+
+O que é uma instância de entidade?
+Objeto no mundo real que pode ser identificado em reação aos outros. Podem ser concretos ou abstratos.
+
+O que é um atributo?
+Uma característica / propriedade de uma entidade / relacionamneto associado a cada ocorrência deles
+
+Diferencie atributo simples de composto.
+Simples: Não pode ser dividido em partes menores. Composto: Pode.
+
+Diferencie atributo mono-valorado de multivalorado.
+Mono: Atributo que possui um único valor. Multi: Atributo que possui mais de um valor por instância.
+
+O que é um atributo nulo?
+Valor desconhecido / sem valor.
+
+O que é um atributo derivado?
+Atributo que pode ser derivado de outros atributos/entidades.
+
+O que é um Relacionamento?
+É uma associação de entidades.
+
+O que é uma instância de relacionamento?
+Associação de entidades no mundo real, representando ações entre entidades.
+
+O que é um grau de um relacionamento?
+Representa quantas entidades fazem parte deste relacionamento.
+
+O que é um papel de uma entidade?
+Representa a função da entidade em um relacionmamento.
+
+O que é um relacionamento obrigatório e opcional? Relacione com cardinalidade.
+Obrigatório: Entidade deve participar do relacionamento, onde a cardinalidade mínima é 1. Opcional: Entidade não precisa participar do relacionamento, onde a cardinalidade mínima é 0.
+
+O que é a cardinalidade de um relacionamento?
+Representa a quantidade de entidades que podem participar de um relacionamento.
+
+O que é a cardinalidade mínima e máxima em atributos?
+Cardinalidade máxima é o maior valor de atributos que podem ser associados a uma entidade, valendo 1 se for mono-valorado, ou n se for multivalorado. A cardinalidade mínima é o menor valor de atributos que podem ser associados a uma entidade, valendo 0 se for opcional, ou 1 se for obrigatório.
+
+O que é uma dependência entre entidades?
+É quando uma entidade depende de outra para existir, fazendo com que exista o conceito de entidade forte e fraca.
+
+O que é um atributo identificador?
+É um atributo no qual seu valor é único para cada entidade, diferenciando cada instância das outras.

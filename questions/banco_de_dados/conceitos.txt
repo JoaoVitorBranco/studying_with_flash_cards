@@ -1,0 +1,44 @@
+O que é um dado?
+Fato em forma primária, que pode ser volátil ou persistente.
+
+O que é uma informação?
+Conjunto de dados interpretado em um contexto.
+
+O que é um Banco de Dados?
+Coleção de dados relacionados entre si.
+
+O que é inconsistência em banco de dados?
+Cada réplica do dado tem valor diferente.
+
+O que é consistência em banco de dados?
+Dados possuem uma faixa de valores pré-determinados, garantindo a integridade dos dados.
+
+O que é integridade em banco de dados?
+Dados são correspondentes com a realidade.
+
+O que é um SGBD?
+Um Sistema Gerenciador de Banco de Dados é um software que permite a criação e gerência da base de dados.
+
+O que é um catálogo/dicionário em um banco de dados?
+É um conjunto de metadados que descrevem a estrutura do banco de dados.
+
+O que é redundância em um banco de dados?
+Mesmo dados armazenados em locais diferentes.
+
+Quais são os 2 tipos de redundância possíveis em um banco de dados? Descreva-as.
+A redundância controlada existe com a automação do sincronismo das réplicas dos dados, eliminando inconsistências. A redundância não controlada é a duplicação de dados sem controle, podendo gerar inconsistências, redigitação de informações e dificuldade na extração de informações.
+
+Cite diferenças entre Sistemas de Arquivos e Sistema de Banco de Dados?
+1) Arquivos - dados projetados para atender aplicação específica; Banco de Dados - dados projetados para atender várias aplicações. 2) Arquivos - pouca concorrência entre dados; Banco de Dados - dados podem ter acesso concorrente. 3) Arquivos - baixa tolerância a falhas; Banco de Dados - alta tolerância a falhas. 4) Arquivos - limitação por tipo de arquivo; Banco de Dados - não há limitação por tipo de arquivo. 5) Arquivos - manutenção prejuidicada pela estrutura do arquivo ser padronizada no próprio código do aplicativo; Banco de Dados - manutenção facilitada pela separação entre dados e aplicação. 6) Arquivos - incompatibilidade em sistemas diferentes pelo desenvolvimento de arquivos e programas para um mesmo SO; Banco de Dados - independência de dados e aplicação. 7) Arquivos - problemas quanto a redundância e integridade; Banco de Dados - controle de redundância e integridade. 8) Lentidão no acesso à informações em arquivos; Banco de Dados - rapidez no acesso à informações. 9) Arquivos - maior esforço humano no desenvolvimento; Banco de Dados - menor esforço humano no desenvolvimento.
+
+O que um DBA - Administrador de Banco de Dados faz?
+Autoriza acesso, monitora o uso e adquire recursos de software/hardware para o banco de dados.
+
+O que um Adminsitrador dos Dados faz?
+Gerencia os dados, mantendo-os alinhados com regras de negócio.
+
+O que um Projetista de Banco de Dados faz?
+Identifica os dados a serem armazenados, escolhendo as melhores estruturas para armazená-los.
+
+Quais são as vantagens de um SGBD?
+Controle de redundância; restrição de acesso não autorizado; armazenamento persistente; eficiência na consulta; backup e recuperação; múltiplas GUIs; relacionamento complexos entre dados; impõe restrições de integridade; permite ações usando regras.
