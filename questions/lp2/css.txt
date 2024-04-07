@@ -60,3 +60,6 @@ As regras voltam a ser aplicadas de acordo com a especificidade e efeito cascata
 
 Caso exista dois seletores com `!important` e com mesma especificidade, qual regra é aplicada?
 A regra que foi definida por último.
+
+Cite um caso que a regra inline perde?
+Caso a regra seja sobrescrita por uma regra com !important.
