@@ -38,7 +38,7 @@ O que o método "map" faz?
 Cria um novo array com os resultados da chamada de uma função para cada elemento do array.
 
 O que o método "reduce" faz?
-Aplica uma função a um acumulador e a cada valor de um array (da esquerda para a direita) para reduzi-lo a um único valor.
+Aplica uma função a um acumulador e a cada valor de um array (da esquerda para a direita) para reduzi-lo a uma única estrutura de dados (seja um valor, array, obj, ...).
 
 O que o método "every" faz?
 Testa se todos os elementos do array passam pelo teste implementado pela função fornecida.
@@ -58,7 +58,7 @@ const nome = par => {};
 Como descrever uma arrow function que possui apenas um parâmetro e retorna o dobro do valor?
 const nome = par => par * 2;
 
-Por que o seguinte código está errado: const ehPar = (n) => { return n % 2 == 0; }; ?
+Por que o seguinte código está errado: const ehPar = (n) => { n % 2 == 0; }; ?
 Porque como possui apenas uma linha, não é necessário o uso de chaves, ou necessita do uso do return.
 
 O que é uma função cidadã de primeira classe?
@@ -68,7 +68,7 @@ O que é uma função de alta ordem?
 É uma função que aceita outra função como argumento ou retorna uma função.
 
 O que é uma função interna? De quais escopos ela consegue acessar variáveis?
-É uma função que é declarada dentro de outra função. Ela consegue acessar variáveis do escopo interno e do escopo externo.
+É uma função que é declarada dentro de outra função. Ela consegue acessar variáveis do escopo interno, do escopo externo e dos escopos acima (até global).
 
 O que é o escopo interno?
 É o escopo de uma função interna, delimitado pelas chaves da função interna.
