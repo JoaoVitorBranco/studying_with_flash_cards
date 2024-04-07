@@ -51,3 +51,12 @@ Qual a especificidade do seguinte seletor: div#principal p > span.bloco, span.pr
 
 Qual a especificidade do seguinte seletor: span.promocao#principal > div#valor span#conteudo div > div > div > div > div.tecnologia#tipo.valor span div article.id > #conteudo.span #classe
 6-5-11
+
+Para que serve o seletor `!important`?
+O seletor !important serve para forçar a aplicação de uma regra, ignorando a especificidade.
+
+O que acontece caso dois seletores tenham `!important`?
+As regras voltam a ser aplicadas de acordo com a especificidade e efeito cascata.
+
+Caso exista dois seletores com `!important` e com mesma especificidade, qual regra é aplicada?
+A regra que foi definida por último.
