@@ -1,0 +1,83 @@
+Diferencie <ul> de <ol>.
+<ul> apresenta um ponto no início de cada item, enquanto <ol> apresenta um número no início de cada item.
+
+Avalie a proposição: "<ol> altera os valores dos itens de acordo com a ordem alfabética".
+Falso. <ol> altera os valores dos itens de acordo com a ordem em que foram inseridos.
+
+O que o elemento <head> e <body> fazem?
+<head> é o cabeçalho do documento, onde são inseridos os metadados sobre o documento, como título, links para estilos, scripts, etc. <body> é o corpo do documento, onde são inseridos os elementos que serão exibidos na página.
+
+Como funciona o encoding para um documento HTML?
+O encoding é a codificação de caracteres utilizada no documento. O encoding feito é definido pela ferramenta que está sendo utilizada para criar o documento. 
+
+O que faz a tag `<meta charset="UTF-8">`? O que acontece se o desenvolvedor inserir uma tag diferente do encoding utilizado?
+Ela indica para o navegador qual encoding está sendo referido. O desenvolvedor pode inserir uma tag diferente do encoding utilizado. Caso isso aconteça, o encoding que será feito é o que a ferramenta de criação do documento estiver utilizando. Esta tag serve para navegadores mais inteligentes conseguirem interpretar o documento corretamente.
+
+Para que serve o `<!DOCTYPE html>`?
+Serve para indicar ao navegador que o documento é um documento HTML5.
+
+O que a tag `<a>` faz? 
+A tag <a> é utilizada para criar links em uma página HTML.
+
+O que a tag `<img>` faz?
+A tag <img> é utilizada para inserir imagens em uma página HTML.
+
+Quais são as formas de uso da tag `<img>`?
+A tag <img> pode ser utilizada de duas formas utilizando o atributo `src`: com um caminho relativo para um arquivo local, ou com um link para uma imagem remota.
+
+Como funciona a utilização dos atributos `width` e `height` da tag `<img>`?
+Os atributos `width` e `height` da tag <img> são utilizados para definir a largura e a altura da imagem, respectivamente. Caso apenas uma delas seja definida, a outra será ajustada automaticamente para manter a proporção da imagem. Caso ambas sejam definidas, a imagem será redimensionada para se ajustar às dimensões especificadas, podendo haver distorção da imagem.
+
+Quais são as formas de se utilizar elementos estruturais, avaliando a semântica?
+1) Uso de `div` e `span` sem definição de classe/id: dessa forma, não existe semântica para os leitores do codigo; 2) Uso de `div` e `span` com definição de classe/id: dessa forma, é possível definir a semântica do elemento, mas de forma arbitrária da equipe (além de possui um idioma em específico); 3) Uso de elementos semânticos: dessa forma, é possível definir a semântica do elemento de forma mais clara e direta, sendo a mais coerente dentre as 3 formas (ao se avaliar semântica).
+
+Qual a diferença entre `div` e `span`?
+`div` é um elemento de bloco, enquanto `span` é um elemento inline. 
+
+Para que serve o elemento `form`?
+O elemento `form` é utilizado para permitir o usuário enviar dados ao servidor.
+
+Como se chama o filho de cada form que permite entrada de dados do usuário?
+Controle.
+
+Qual a relação entre `<input>` e `<label>`?
+O elemento <label> é utilizado para associar um rótulo a um controle de formulário, como <input>.
+
+Quais são as duas formas de se associar um `<label>` a um `<input>`?
+1) Utilizando o atributo `for` no <label> e o atributo `id` no <input>; 2) Utilizando o elemento <input> dentro do elemento <label>.
+
+Qual é a tag que permite que o usuário envie seus dados dentro de um `<form>`?
+`<input type="submit" value="texto-do-botão-de-enviar">`
+
+O que faz a tag `<textarea>`?
+A tag <textarea> é utilizada para criar um campo de texto potencialmente "grande" dentro de um formulário.
+
+O que faz a tag `<select>`?
+A tag <select> é utilizada para criar um menu de seleção dentro de um formulário.
+
+O que faz a tag `<fieldset>`? Cite duas vantagens de se utilizar ela.
+A tag <fieldset> é utilizada para agrupar elementos de formulário relacionados em um formulário. Ela gera mais semântica para o formulário, além de poder inserir uma pergunta.
+
+Quais são as duas formas de se utilizar uma `<table>`? Qual delas é preferível de acordo com WEB Design _tableless_ e por quê?
+1) Para exibir dados em formato de tabela; 2) Para criar um layout. A primeria forma é preferível, uma vez que existe o CSS para criar layouts.
+
+O que sigfnifica a especificação WAI-ARIA?
+WAI-ARIA é uma especificação que define como tornar o conteúdo e as aplicações da Web mais acessíveis para pessoas com deficiência.
+
+Qual analogia com CSS explica a funcionalidade do WAI-ARIA?
+"O WAI-ARIA é como o CSS para acessibilidade".
+
+Quais são os 2 princípios do WAI-ARIA?
+1) Uma role é uma promessa; 2) ARIA pode ocultar/aprimorar significados.
+
+Como definir os microdados de um elemento HTML?
+Utilizando o vocabulário do schema.org, por exemplo.
+
+Para que serve, de modo geral, o atributo `itemscope`?
+Para definir o escopo de um item.
+
+Para que serve, de modo geral, o atributo `itemtype`?
+Para definir o tipo de um item referenciado pelo `itemscope`.
+
+Para que serve, de modo geral, o atributo `itemprop`?
+Para definir uma propriedade de um item.
