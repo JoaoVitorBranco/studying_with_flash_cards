@@ -1,5 +1,5 @@
 Diferencie <ul> de <ol>.
-<ul> apresenta um ponto no início de cada item, enquanto <ol> apresenta um número no início de cada item.
+<ul> representa uma lista semanticamente não ordenada, enquanto <ol> representa uma lista semanticamente ordenada.
 
 Avalie a proposição: "<ol> altera os valores dos itens de acordo com a ordem alfabética".
 Falso. <ol> altera os valores dos itens de acordo com a ordem em que foram inseridos.
@@ -74,7 +74,7 @@ Como definir os microdados de um elemento HTML?
 Utilizando o vocabulário do schema.org, por exemplo.
 
 Para que serve, de modo geral, o atributo `itemscope`?
-Para definir o escopo de um item.
+Para definir o escopo de um item que se quer definir microdados.
 
 Para que serve, de modo geral, o atributo `itemtype`?
 Para definir o tipo de um item referenciado pelo `itemscope`.
