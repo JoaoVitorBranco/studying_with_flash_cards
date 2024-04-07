@@ -46,7 +46,7 @@ O elemento <label> é utilizado para associar um rótulo a um controle de formul
 Quais são as duas formas de se associar um `<label>` a um `<input>`?
 1) Utilizando o atributo `for` no <label> e o atributo `id` no <input>; 2) Utilizando o elemento <input> dentro do elemento <label>.
 
-Qual é a tag que permite que o usuário envie seus dados dentro de um `<form>`?
+Dê um exemplo de tag que permita que o usuário envie seus dados dentro de um `<form>`?
 `<input type="submit" value="texto-do-botão-de-enviar">`
 
 O que faz a tag `<textarea>`?
