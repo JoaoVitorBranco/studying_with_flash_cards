@@ -61,7 +61,7 @@ A tag <fieldset> é utilizada para agrupar elementos de formulário relacionados
 Quais são as duas formas de se utilizar uma `<table>`? Qual delas é preferível de acordo com WEB Design _tableless_ e por quê?
 1) Para exibir dados em formato de tabela; 2) Para criar um layout. A primeria forma é preferível, uma vez que existe o CSS para criar layouts.
 
-O que sigfnifica a especificação WAI-ARIA?
+O que significa a especificação WAI-ARIA?
 WAI-ARIA é uma especificação que define como tornar o conteúdo e as aplicações da Web mais acessíveis para pessoas com deficiência.
 
 Qual analogia com CSS explica a funcionalidade do WAI-ARIA?
