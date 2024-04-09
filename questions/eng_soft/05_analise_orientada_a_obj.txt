@@ -1,0 +1,32 @@
+O que são objetos?
+Elementos que compõe um problema, representando entidades em um software.
+
+Quais são as duas características de um objeto?
+Identidade: distintos entre os outros objetos; Persistência: temporária e permanente.
+
+O que são mensagens?
+São elementos que promovem a comunicação entre objetos.
+
+Quais são os elementos de uma mensagem?
+Nome do método, lista de parâmetros e objeto que requisitou a chamada.
+
+O que são classes?
+São estruturas que permitem com que objetos sejam criados, espécie de "molde". Representam um TAD / uma abstração de um objeto.
+
+Dê 3 características de objetos que uma classe define.
+Atributos, métodos e interface.
+
+Qual é a ideia do Paradigma Orientado a Objetos?
+A ideia é que o software seja composto por objetos que interagem entre si, representando conceitos do mundo real.
+
+O que são atributos?
+Em classes são defininções, em objetos são valores associados.
+
+O que são métodos?
+São ações que um objeto pode realizar.
+
+Quais são as partes que compõem um Diagram de Classe da UML? Defina-as.
+1) Nome; 2) Atributos: `nome:tipo=default`; 3) Métodos: `nome(parametros):tipo_retorno`.
+
+Quais são as partes que compõem um Diagrama de Objetos? Defina-as.
+1) Nome: `nome_da_instância:nome_da_classe`; 2) Atributos: `nome_do_atributo:valor`

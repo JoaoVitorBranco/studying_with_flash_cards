@@ -45,3 +45,12 @@ São RNF que descrevem como o sistema deve ser para garantir a privacidade do us
 
 O que é um RNF de Segurança? Cite um exemplo.
 São RNF que descrevem como o sistema deve ser para garantir a segurança do usuário. Exemplo: O sistema deve ter um login seguro (sem SQLi); deve usar criptografia X; comunicação HTTPS, ...
+
+Quais são as características de um RF que deve ter em uma descrição textual? (4)
+Identificador, descrição, prioridade e requisitos relacionados.
+
+Quais são as características de um RNF que deve ter em uma descrição textual? (4)
+Identificador, descrição, prioridade e taxonomia
+
+Quais são as 3 perguntas a se fazer em uma user story?
+Como <QUEM?> eu quero <O QUE?> para <POR QUÊ?>

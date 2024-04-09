@@ -1,3 +1,6 @@
+Cite duas características que tornam a Engenharia de Requisitos importante.
+Muitas vezes o cliente não sabe o que é necessário, e muitos dos requisitos mudam conforme o andar do projeto.
+
 Quais são as 6 etapas da Engenharia de Requisitos? Descreva-as.
 1) Concepção: tarefa que define a natureza do problema; 2) Levantamento: tarefa que identifica os requisitos do sistema; 3) Elaboração: tarefa que analisa os requisitos do sistema, refinando-os; 4) Negociação: define as prioridades; 5) Especificação: documentação dos requisitos; 6) Validação: garante que o entendimento do problema coincida com as necessidades dos envolvidos.
 
@@ -8,7 +11,7 @@ O que são Artefatos?
 São subprodutos do que são produzidos na Engenharia de Software: uma entrega.
 
 O que são requisitos?
-Necessidade de um sistema. O que um software deve executar.
+Necessidade de um objeto. Em softwares, necessidades de softwares. O que um software deve executar.
 
 O que é uma Poker Planning?
 É uma técnica de definição de prioridades de requisitos a partir de pontuações pelos usuários. Estes podem gastar pontos de acordo com a importância de cada requisito. Não se pode gastar pontos já utilizados, e se gastar todos os pontos não pode opinar mais.

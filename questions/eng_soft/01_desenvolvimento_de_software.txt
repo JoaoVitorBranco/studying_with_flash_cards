@@ -38,7 +38,7 @@ O que foi a crise do software? Cite tópicos envolvendo-a.
 A crise do software foi uma conferência para discutir alguns problemas que estavam ocorrendo com o desenvolvimento de software, tais como: desenvolvimento informal não adequado, altos custos, grandes atrasos, difícil manutenção, entregas não confiáveis, ...
 
 Quais foram as constatações feitas na crise do software?
-1) Crise da Tecnologia: hardware evoluia mais rápido que software; 2) Crise de Oferta: demanda maior que a capacidade de desempenho; 3) Crise de Manutenção: projetos malfeitos não permitiam fácil manutenção; 4) Custos de hardware mais baixos que software.
+1) Crise da Tecnologia: hardware evoluia mais rápido que software; 2) Crise de Oferta: demanda maior que a capacidade de desempenho; 3) Crise de Manutenção: projetos malfeitos não permitiam fácil manutenção
 
 Quais são os mitos do software no ponto de vista do gerente?
 Aumento da equipe resolve atraso, tercerizar resolve problemas de gestão, ...

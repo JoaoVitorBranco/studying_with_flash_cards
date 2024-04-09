@@ -1,11 +1,17 @@
+O que é Engenharia de Software?
+Ciência que busca estudar princípios de Engenharia no desenvolviemnto de software: métodos, técnicas e ferramentas para a produção de software de qualidade.
+
 Quais são as 4 camadas da Engenharia de Software?
-Ferramentas, Métodos, Processos e Qualidade
+Ferramentas (automatização aos processos e métodos), Métodos (abordagens para o desenvolvimento de softwarre, como conduzir os processos), Processos (etapas para se produzir um software [Especificação, Projeto, Implementação, Teste]) e Qualidade (foco na qualidade do software)
+
+Diferencie Processo de Software de Modelo de Processo de Desenvolvimento de Software.
+PdS é o conjunto de atividades que especificam, projetam, implementam e testam um software. MPDS é uma representação abstrata de um processo de software, que pode ser adaptado para atender as necessidades de um projeto específico.
 
 Para cada Prática no Desenvolvimento de Software a seguir, cite uma possível pergunta a ser resondida: 1) Compreenda o problema; 2) Planeje a solução; 3) Execute o plano; 4) Examine o resultado
 1) Quem interessa a solução? Quais são as incódgnitas? O problema pode ser segmentado? Problema pode ser representado graficamente? 2) Existem problemas similares? Se sim, já foram resolvidos? É possível dividir em subproblemas? É possível criar um modelo de projeto? 3) A solução se adequa ao plano? Cada parte da solução está correta? 4) É possível testar cada parte da solução? O software atende todos os requisitos?
 
 Quais são as 3 fases genéricas do desenvolvimento de software? Cite o que elas significam.
-1) Definição: análise do sistema para entender o que deve ser feito, analisando os requisitos e planejando o projeto; 2) Desenvolvimento: como fazer o sistema, codando e testando; 3) Manutenção: quais as mudanças a serem feitas?
+1) Definição: análise do sistema, planejamento do projeto (análise de riscos, estimativa de custos), análise de requisitos; 2) Desenvolvimento: projeto do software, codificação e teste; 3) Manutenção: quais as mudanças a serem feitas (4 tipos)?
 
 Quais são os 4 tipos de manutenção possíveis de um software?
 Corretiva (corrigir defeitos), Adaptativa (adaptar o software a novos ambientes), Perfectiva (melhorar o software) e Preventiva (evitar problemas futuros)
@@ -14,7 +20,7 @@ O que é o Modelo Cascata?
 Modelo de desenvolvimento de software que segue uma sequência de fases, onde cada fase depende da anterior e é dependência da próxima. Não é possível voltar para uma fase anterior, apenas na etapa de manutenção.
 
 Cite uma vantagem do modelo Cascata.
-Fácil entendimento; útil em escopos simples; útil em projetos com requisitos bem definidos; útil para adequações a sistemas existentes.
+Fácil entendimento; útil em escopos simples; útil em projetos com requisitos bem definidos; útil para adequações a sistemas existentes; 
 
 Cite uma desvantagem do modelo Cascata.
 Projetos reais dificilmente seguem fluxo sequencial; dificudade no cliente definir todos os requisitos iniciais; versão operacional apenas no final do projeto.
@@ -23,7 +29,7 @@ O que é o Modelo Incremental?
 Modelo de desenvolvimento de software que divide o projeto em partes menores, onde cada parte é desenvolvida e testada separadamente. Cada parte é um incremento do software.
 
 Cite uma vantagem do modelo Incremental.
-Menor custo para acomodar mudanças; útil quando se tem poucos recursos humanos; ajuda para administrar riscos.
+Menor custo para acomodar mudanças simples; útil quando se tem poucos recursos humanos; cliente consegue interagir com cada parte individual do projeto; feedback do cliente para cada incremento.
 
 Cite uma desvantagem do modelo Incremental.
 Projeto não é visível; diferentes equipes em diferentes partes do sistema; adequações complexas em requisitos já funcionais; incorporar mudanças futuras é custoso.
