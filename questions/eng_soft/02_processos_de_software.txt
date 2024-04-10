@@ -5,7 +5,7 @@ Quais são as 4 camadas da Engenharia de Software?
 Ferramentas (automatização aos processos e métodos), Métodos (abordagens para o desenvolvimento de softwarre, como conduzir os processos), Processos (etapas para se produzir um software [Especificação, Projeto, Implementação, Teste]) e Qualidade (foco na qualidade do software)
 
 Diferencie Processo de Software de Modelo, e Processo de Desenvolvimento de Software.
-PdS é o conjunto de atividades que especificam, projetam, implementam e testam um software. MPDS é uma representação abstrata de um processo de software, que pode ser adaptado para atender as necessidades de um projeto específico.
+PdS é o conjunto de atividades (atingir objetivo amplo a partir de ações), ações (resultam em artefato a partir de tarefas) e tarefas (objetivo pequeno) para desenvolver um software. MPDS é uma representação abstrata de um processo de software, que pode ser adaptado para atender as necessidades de um projeto específico.
 
 Para cada Prática no Desenvolvimento de Software a seguir, cite uma possível pergunta a ser resondida: 1) Compreenda o problema; 2) Planeje a solução; 3) Execute o plano; 4) Examine o resultado
 1) Quem interessa a solução? Quais são as incódgnitas? O problema pode ser segmentado? Problema pode ser representado graficamente? 2) Existem problemas similares? Se sim, já foram resolvidos? É possível dividir em subproblemas? É possível criar um modelo de projeto? 3) A solução se adequa ao plano? Cada parte da solução está correta? 4) É possível testar cada parte da solução? O software atende todos os requisitos?
