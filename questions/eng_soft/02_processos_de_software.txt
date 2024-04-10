@@ -29,10 +29,10 @@ O que é o Modelo Incremental?
 Modelo de desenvolvimento de software que divide o projeto em partes menores, onde cada parte é desenvolvida e testada separadamente. Cada parte é um incremento do software.
 
 Cite uma vantagem do modelo Incremental.
-Menor custo para acomodar mudanças simples; útil quando se tem poucos recursos humanos; cliente consegue interagir com cada parte individual do projeto; feedback do cliente para cada incremento.
+Menor custo para acomodar mudanças nos *requisitos*; útil quando se tem poucos recursos humanos; cliente consegue interagir com cada parte individual do projeto (módulos operacionais); feedback do cliente para cada incremento.
 
 Cite uma desvantagem do modelo Incremental.
-Projeto não é visível; diferentes equipes em diferentes partes do sistema; adequações complexas em requisitos já funcionais; incorporar mudanças futuras é custoso.
+Projeto não é visível (como é rápido o desenvolvimento, dificuldade em fazer documentos aos gerentes); diferentes equipes em diferentes partes do sistema; adequações complexas em requisitos já operacionais (como o cliente já usa os incrementos, uma alteração complexa pode atrapalhar o uso do usuário); incorporar mudanças futuras é custoso.
 
 O que é o Modelo de Prototipagem?
 Modelo de desenvolvimento de software que cria um protótipo do software para que o cliente possa visualizar e testar o software antes de ser desenvolvido.

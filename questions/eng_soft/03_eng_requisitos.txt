@@ -8,7 +8,7 @@ O que é a Engenharia de Requisitos?
 É o processo que reúne técnicas que levam a compreensão dos requisitos.
 
 O que são Artefatos?
-São subprodutos do que são produzidos na Engenharia de Software: uma entrega.
+São documentos que explicitam o entendimento dos requisitos do sistema. São utilizados também para validar com o cliente o entendimento dos requisitos pela equipe de software.
 
 O que são requisitos?
 Necessidade de um objeto. Em softwares, necessidades de softwares. O que um software deve executar.
