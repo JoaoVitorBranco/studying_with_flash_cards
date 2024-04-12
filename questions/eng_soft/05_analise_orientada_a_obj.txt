@@ -30,3 +30,6 @@ Quais são as partes que compõem um Diagram de Classe da UML? Defina-as.
 
 Quais são as partes que compõem um Diagrama de Objetos? Defina-as.
 1) Nome: `nome_da_instância:nome_da_classe`; 2) Atributos: `nome_do_atributo:valor`
+
+Descreva, de forma global, a Taxonomia de RNFs.
+Requisitos Produto (Usabilidade, Desempenho, Capacidade, Confiabilidade e Portabilidade); Requisitos Operacionais (Padronização, Entrega e Implementação); Requisitos Externos (Interoperabilidae, Ética, Privacidade e Segurança).

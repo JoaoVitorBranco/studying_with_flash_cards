@@ -1,8 +1,8 @@
-O que é um Modelo:
+O que é um Modelo?
 Representação abstrata de um objeto/sistema real.
 
 O que é uma Abstração?
-Aspectos essenciais de um contexto qualquer.
+Aspectos essenciais de um contexto qualquer. Recortar da realidade somente o que interessa representar.
 
 O que é um Modelo de Banco de Dados?
 Descrição da estrutura de um banco de dados.

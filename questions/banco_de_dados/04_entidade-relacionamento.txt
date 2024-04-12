@@ -2,7 +2,7 @@ O que é uma entidade?
 Objeto no mundo real que se deseja manter informações em um BD.
 
 O que é uma instância de entidade?
-Objeto no mundo real que pode ser identificado em reação aos outros. Podem ser concretos ou abstratos.
+Objeto no mundo real que pode ser identificado em reação aos outros. Podem ser concretos ou abstratos. Único objeto do conjunto de Entidade.
 
 O que é um atributo?
 Uma característica / propriedade de uma entidade / relacionamneto associado a cada ocorrência deles
@@ -20,7 +20,7 @@ O que é um atributo derivado?
 Atributo que pode ser derivado de outros atributos/entidades.
 
 O que é um Relacionamento?
-É uma associação de entidades.
+É uma associação de objetos.
 
 O que é uma instância de relacionamento?
 Associação de entidades no mundo real, representando ações entre entidades.
@@ -35,7 +35,7 @@ O que é um relacionamento obrigatório e opcional? Relacione com cardinalidade.
 Obrigatório: Entidade deve participar do relacionamento, onde a cardinalidade mínima é 1. Opcional: Entidade não precisa participar do relacionamento, onde a cardinalidade mínima é 0.
 
 O que é a cardinalidade de um relacionamento?
-Representa a quantidade de entidades que podem participar de um relacionamento.
+Representa a quantidade de instâncias que participam de um relacionamento.
 
 O que é a cardinalidade mínima e máxima em atributos?
 Cardinalidade máxima é o maior valor de atributos que podem ser associados a uma entidade, valendo 1 se for mono-valorado, ou n se for multivalorado. A cardinalidade mínima é o menor valor de atributos que podem ser associados a uma entidade, valendo 0 se for opcional, ou 1 se for obrigatório.

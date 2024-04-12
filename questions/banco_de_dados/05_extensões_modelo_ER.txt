@@ -1,0 +1,29 @@
+O que é uma Especialização?
+Definição de entidade que é subconjunto da outra.
+
+O que é Generalização?
+Definição de entidade que é superconjunto da outra.
+
+Qual a relação dos atributos de uma subclasse e uma superclasse?
+Os atributos da superclasse são herdados pela subclasse.
+
+Diferencie uma especialização total e parcial.
+Total: representação de todos os subtipos. Parcial: representação de alguns subtipos.
+
+Quais as letras que definem especialização total e parcial?
+Total: T. Parcial: P.
+
+Qual o padrão de uma especialização se não tiver letras?
+Total e Exclusivo.
+
+Diferencie subtipo exclusivo e compartilhado.
+Exclusivo: um objeto pode ser de apenas um subtipo. Compartilhado: um objeto pode ser de mais de um subtipo.
+
+Quais as letras que definem subtipo exclusivo e compartilhado?
+Exclusivo: E. Compartilhado: C.
+
+O que é uma agregação?
+Representação de um relacionamento de um relacionamento, criando uma nova entidade.
+
+Quais são as duas formas de representar uma agregação?
+Estrutura de Agregação e Entidade Associativa.
