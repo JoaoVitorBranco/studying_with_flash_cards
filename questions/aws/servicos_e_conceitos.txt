@@ -285,3 +285,15 @@ Painel de gerenciamento de faturas, pagamentos e métodos de cobrança da conta 
 
 O que é: AWS Cost Explorer
 Analisa gastos e uso da AWS ao longo do tempo com gráficos e filtros detalhados.
+
+O que é: AWS CodeBuild
+Compila, testa e gera artefatos automaticamente em pipelines; é serverless e gerenciado.
+
+O que é: AWS CodeCommit
+Repositório Git privado na AWS, ideal para versionar código com segurança e integração nativa.
+
+O que é: AWS CodeDeploy
+Automatiza o deploy de aplicações em EC2, Lambda e ECS com suporte a rollback e alta disponibilidade.
+
+O que é: AWS CodePipeline
+Orquestra o CI/CD completo, conectando etapas de source, build, test e deploy com automação total.
