@@ -13,6 +13,9 @@ Solução simples e integrada (instância + banco + rede) para projetos pequenos
 O que é: Amazon EC2
 Serviço de computação escalável baseado em instâncias virtuais; ideal para controle total do ambiente.
 
+O que é: AMI
+Imagem que contém o SO, apps e configs usadas para lançar instâncias EC2 padronizadas e repetíveis.
+
 O que é: AWS Lambda
 Executa código sob demanda com cobrança por milissegundos; exemplo clássico de serverless.
 
