@@ -1,0 +1,284 @@
+O que é: AWS Elastic Beanstalk
+Plataforma PaaS para deploy automático de apps web, sem gerenciar infraestrutura.
+
+O que é: AWS Auto Scaling
+Ajusta automaticamente recursos (como EC2) com base na demanda para performance e economia.
+
+O que é: AWS Fargate
+Serviço serverless que executa containers com ECS/EKS sem precisar gerenciar servidores.
+
+O que é: Amazon Lightsail
+Solução simples e integrada (instância + banco + rede) para projetos pequenos e rápidos.
+
+O que é: Amazon EC2
+Serviço de computação escalável baseado em instâncias virtuais; ideal para controle total do ambiente.
+
+O que é: AWS Lambda
+Executa código sob demanda com cobrança por milissegundos; exemplo clássico de serverless.
+
+O que é: AWS Storage Gateway
+Serviço híbrido que conecta armazenamento on-premises à nuvem AWS, ideal para backup e arquivamento.
+
+O que é: Amazon Instance Store
+Armazenamento temporário vinculado à instância EC2, apagado ao reiniciar ou encerrar, com rapida operacões de leitura e escrita.
+
+O que é: Amazon EBS 
+Volume de armazenamento em bloco persistente para EC2, ideal para bancos de dados e aplicações críticas, apenas para 1 EC2 e em uma única AZ.
+
+O que é: Amazon EFS
+Sistema de arquivos elástico e compartilhado, acessível por múltiplas instâncias simultaneamente, pode ser compartilhado entre várias EC2 e em várias AZs da mesma região.
+
+O que é: Amazon S3
+Armazenamento de objetos escalável e durável, com alta disponibilidade e uso amplo em backup e data lakes.
+
+O que é: Amazon Neptune
+Banco de dados em grafo para modelar relacionamentos complexos, foco nos relacionamento.
+
+O que é: Amazon Aurora
+Versão otimizada do RDS com alta performance e escalabilidade, compatível com MySQL e PostgreSQL, com possibilidade Serverless.
+
+O que é: Amazon ElastiCache
+Serviço de cache in-memory (Redis/Memcached) para reduzir latência e melhorar performance de leitura.
+
+O que é: Amazon DynamoDB
+Banco NoSQL gerenciado e serverless, com baixa latência e escalabilidade automática.
+
+O que é: Amazon RDS
+Serviço gerenciado de banco de dados relacional (MySQL, PostgreSQL, Oracle, etc.) com backups e alta disponibilidade. Possui aplicação automática de patches e backups automáticos.
+
+O que é: Multi-AZ Deployment
+Configuração do Amazon RDS para uamentar disponibilidade e tolerância a falhas ao replicar BD para outra instância em outra AZ.
+
+O que é: AWS Global Accelerator
+Otimiza rotas de tráfego global usando a rede da AWS para melhorar performance e disponibilidade.
+
+O que é: Elastic Load Balancing (ELB)
+Distribui automaticamente o tráfego entre múltiplas instâncias para garantir alta disponibilidade.
+
+O que é: AWS Network Load Balancer (NLB)
+Tipo de ELB voltado para tráfego TCP de alto desempenho e baixa latência.
+
+O que é: AWS Application Load Balancer (NLB)
+Balanceador de carga L7 que roteia tráfego HTTP/HTTPS com base em regras como caminho e host; ideal para microserviços e aplicações web modernas.
+
+O que é: AWS Internet Gateway
+Permite que recursos em uma VPC se comuniquem com a internet.
+
+O que é: VPC Peering
+O VPC Peering é um recurso da AWS que conecta duas VPCs (Virtual Private Clouds) para que elas possam se comunicar diretamente entre si, como se estivessem na mesma rede — usando endereços IP privados; não é transitivo, conecta poucas VPCs, baixa escalabilidade e custo.
+
+O que é: AWS Transit Gateway
+Facilita a conexão de várias VPCs e redes on-premises em um único hub de rede.
+
+O que é: AWS PrivateLink
+Permite acesso privado e seguro a serviços da AWS ou de terceiros via Interface Endpoint; ideal para comunicação entre VPCs sem VPC Peering, conecta serviços entre VPCs sem roteamento direto, escalabilidade e custo médio
+
+O que é: AWS Route 53
+Serviço de DNS escalável e altamente disponível que roteia tráfego baseado em políticas configuráveis.
+
+O que é: Amazon CloudFront
+CDN da AWS que entrega conteúdo com baixa latência usando edge locations distribuídas globalmente.
+
+O que é: Amazon VPC
+Rede virtual privada onde você define sua própria topologia de rede dentro da AWS.
+
+O que é: Security Group e NACL
+SG atuam como firewalls em nível de instância, apenas com regras ALLOW em EC2, enquanto o NACL são lista de controles de acesso em nível de sub-rede, com regras de ALLOW e DENY.
+
+O que é: AWS Regions
+Localizações geográficas que contêm múltiplas zonas de disponibilidade (AZs) independentes - no mínimo 3.
+
+O que é: AWS Direct Connect
+Conexão de rede física dedicada entre seu data center e a AWS, com alta performance e baixa latência.
+
+O que é: AWS Site-to-Site VPN
+Cria uma conexão segura via internet entre seu data center on-premises e a VPC da AWS usando IPsec.
+
+O que é: AWS VPC Endpoint
+Permite acesso privado a serviços da AWS dentro da VPC sem passar pela internet; pode ser Gateway (S3/DynamoDB) ou Interface (outros serviços).
+
+O que é: AWS CloudHSM
+Hardware de segurança dedicado para gerenciamento de chaves criptográficas com controle total do cliente.
+
+O que é: AWS KMS
+Serviço gerenciado de criptografia e gerenciamento de chaves para proteger dados em serviços AWS.
+
+O que é: AWS Shield
+Proteção contra ataques DDoS; Standard é automático e gratuito, Advanced oferece proteção extra.
+
+O que é: AWS Audit Manager
+Automatiza coleta de evidências para auditorias e conformidade contínua com frameworks como GDPR e ISO.
+
+O que é: AWS Artifact
+Central de documentos de conformidade e relatórios de auditoria da AWS.
+
+O que é: Amazon Cognito
+Gerencia autenticação de usuários em apps web/mobile com login social ou direto.
+
+O que é: AWS WAF
+Firewall para aplicações web que protege contra ataques como SQL Injection e XSS.
+
+O que é: Amazon Macie
+Usa machine learning para identificar e proteger dados confidenciais, como PII, em buckets S3.
+
+O que é: AWS Secrets Manager
+Armazena e gerencia segredos como senhas e tokens de forma segura e com rotação automática.
+
+O que é: AWS Firewall Manager
+Gerencia centralmente regras do WAF, Shield e grupos de segurança em várias contas.
+
+O que é: Amazon Inspector
+Analisa vulnerabilidades em instâncias EC2, containers e Lambda, avaliando postura de segurança.
+
+O que é: Amazon GuardDuty
+Detecta ameaças automaticamente com base em logs, análise de comportamento e Machine Learning para identificar atividades maliciosas na conta da AWS.
+
+O que é: AWS Security Hub
+Painel central de segurança que agrega alertas de serviços como GuardDuty, Inspector, Macie e serviços de terceiros.
+
+O que é: AWS CloudTrail
+Registra todas as ações e chamadas de API da conta, ajudando na auditoria e investigação de ações.
+
+O que é: AWS Abuse Team
+Responsável por lidar com casos de uso indevido ou abuso dentro da infraestrutura da AWS.
+
+O que é: Amazon IAM
+Gerencia usuários, grupos, funções e permissões; base da segurança e controle de acesso na AWS.
+
+O que é: IAM Credential Report
+O IAM Credential Report fornece um relatório consolidado de todas as credenciais associadas aos usuários IAM da conta AWS.
+
+O que é: IAM Access Analyzer
+O IAM Access Analyzer é um serviço que detecta permissões excessivas e acessos não intencionais a recursos da AWS.
+
+O que é: AWS Trusted Advisor  
+Analisa sua conta e oferece recomendações de segurança, performance, custo e limites.
+
+O que é: Amazon Redshift
+Data warehouse gerenciado para análises em larga escala usando SQL; ideal para BI e OLAP.
+
+O que é: AWS Glue
+Serviço ETL serverless que prepara e integra dados de diversas fontes para análise.
+
+O que é: Amazon EMR
+Plataforma gerenciada para processamento Big Data com frameworks como Hadoop, Spark e Hive.
+
+O que é: Amazon Kinesis
+Processa e analisa dados em tempo real, como logs e cliques.
+
+O que é: Amazon Athena
+Serviço serverless para consultas SQL diretas em dados armazenados no Amazon S3.
+
+O que é: AWS Systems Manager
+Central de gerenciamento de recursos que permite automatizar tarefas operacionais e manter conformidade.
+
+O que é: AWS Systems Manager Session Manager
+Acesso seguro a instâncias EC2 via console, sem necessidade de SSH ou chaves.
+
+O que é: AWS Organization
+Gerencia múltiplas contas AWS com políticas centralizadas e consolidação de faturamento.
+
+O que é: AWS Knowledge Center
+Base de conhecimento oficial com respostas para dúvidas frequentes sobre serviços AWS.
+
+O que é: AWS Chatbot
+Integra AWS com Slack ou Microsoft Teams para receber alertas e executar comandos via chat.
+
+O que é: AWS Concierge Support Team
+Suporte especializado para questões de faturamento e uso de serviços, exclusivo do plano Enterprise.
+
+O que é: AWS Compute Optimizer
+Analisa o uso de recursos e recomenda ajustes para reduzir custos e melhorar performance.
+
+O que é: AWS CloudFormation
+Infraestrutura como código para provisionar e gerenciar recursos AWS automaticamente com templates.
+
+O que é: AWS Config
+Monitora e registra alterações de configuração em recursos AWS e verifica conformidade com regras.
+
+O que é: Amazon CloudWatch
+Coleta métricas, logs e eventos para monitorar recursos, gerar alertas e automatizar ações.
+
+O que é: Amazon Transcribe
+Converte fala em texto automaticamente; ideal para legendas, transcrições e acessibilidade.
+
+O que é: Amazon Translate
+Serviço de tradução automática de idiomas em tempo real com alta qualidade.
+
+O que é: Amazon Polly
+Converte texto em fala com vozes realistas; usado para criar experiências faladas.
+
+O que é: Amazon Kendra
+Motor de busca inteligente com NLP para consultas precisas em documentos corporativos.
+
+O que é: Amazon Step Functions
+Orquestra fluxos de trabalho serverless com estados visuais e controle de etapas.
+
+O que é: Amazon EventBridge
+Barramento de eventos que conecta aplicações AWS e SaaS com base em eventos.
+
+O que é: Amazon MQ
+Broker de mensagens gerenciado compatível com protocolos como ActiveMQ e RabbitMQ.
+
+O que é: Amazon API Gateway
+Cria, publica e gerencia APIs REST e WebSocket com suporte a autenticação e throttling.
+
+O que é: Amazon SES
+Serviço gerenciado de envio de e-mails transacionais e marketing com alta entrega.
+
+O que é: Amazon SQS
+Fila de mensagens desacoplada que permite comunicação assíncrona entre componentes.
+
+O que é: Amazon SNS
+Serviço Pub/Sub que envia notificações para múltiplos destinos como email, SMS, Lambda e SQS.
+
+O que é: AWS Cloud9
+IDE baseada em nuvem com terminal e editor de código integrados, ideal para programar direto na AWS.
+
+O que é: AWS X-Ray
+Ferramenta de rastreamento que analisa desempenho de aplicações distribuídas e identifica gargalos.
+
+O que é: AWS APN
+Rede global de parceiros AWS (consultoria e tecnologia) que oferecem soluções e serviços.
+
+O que é: AWS Marketplace Seller
+Empresas ou indivíduos que vendem softwares e serviços na AWS Marketplace.
+
+O que é: Amazon Pinpoint
+Serviço de marketing multicanal para enviar mensagens personalizadas por e-mail, SMS e push.
+
+O que é: Amazon Connect
+Central de atendimento na nuvem com autosserviço, análise e integração com outros serviços AWS.
+
+O que é: AWS Snowball
+Dispositivo físico para migração segura de grandes volumes de dados para a AWS.
+
+O que é: AWS Snowmobile
+Caminhão de dados para migração em larga escala (até 100 PB) de data centers inteiros.
+
+O que é: Amazon Snowball Edge
+Versão do Snowball com poder de computação local para processar dados no local.
+
+O que é: AWS DataSync
+Transfere grandes volumes de dados entre armazenamento local e AWS com alta velocidade.
+
+O que é: AWS Transfer Family
+Transfere arquivos para o Amazon S3 usando protocolos tradicionais como SFTP, FTPS e FTP.
+
+O que é: AWS Database Migration Service (DMS)
+Migra bancos de dados para a AWS com interrupção mínima e suporte a diferentes engines
+
+O que é: AWS Application Discovery Service
+Coleta dados de aplicações on-premises para ajudar em estratégias de migração para a nuvem.
+
+O que é: AWS Pricing Calculator
+Estima custos futuros com base na configuração dos serviços antes da implantação.
+
+O que é: AWS Budgets
+Define limites de custo e uso, enviando alertas quando são ultrapassados.
+
+O que é: AWS Billing
+Painel de gerenciamento de faturas, pagamentos e métodos de cobrança da conta AWS.
+
+O que é: AWS Cost Explorer
+Analisa gastos e uso da AWS ao longo do tempo com gráficos e filtros detalhados.

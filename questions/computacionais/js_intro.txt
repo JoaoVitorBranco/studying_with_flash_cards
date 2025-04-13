@@ -17,10 +17,10 @@ Quais são os 2 tipos de coerção? Descreva-as.
 Implicita e Explicita. Implicita é quando o JS faz a conversão automaticamente, enquanto a explicita é quando o programador faz a conversão.
 
 Dê um exemplo de código para Coerção explicita.
-console.log(2 + '3');
+console.log(2 + Number('3'));
 
 Dê um exemplo de código para Coerção implicita.
-console.log(2 + Number('3'));
+console.log(2 + '3');
 
 Quais são as 2as possíveis comparações existentes no JS? Diferencie-as.
 "==" e "===". A primeira compara o valor, enquanto a segunda compara o valor e o tipo.

@@ -119,14 +119,17 @@ def main():
             list_of_rights = [False] * len(cardList.cards)
             while(not_full_right):
                 print("# You need to answer all questions right to stop this practicing")
+                cardlist_len = len([card_is_right for card_is_right in list_of_rights if not card_is_right])
+                idx_card_round = 0
                 for idx, card in enumerate(cardList.cards):
                     if(list_of_rights[idx] == False):
-                        print("\nP: " + card.question)
+                        print(f"\nP ({idx_card_round+1}/{cardlist_len}): " + card.question)
                         input("# Press enter to see the answer")
                         print("R: " + card.answer)
                         answer = input("# Yay/Nay? ")
                         if(answer.lower() in ["yay", "y", "yes", "sim", "s", "ya"]):
                             list_of_rights[idx] = True
+                        idx_card_round += 1
                 if(all(list_of_rights)):
                     not_full_right = False
                 print(f"\n# You got {list_of_rights.count(True)}/{len(list_of_rights)} right answers")
