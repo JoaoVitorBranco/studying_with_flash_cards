@@ -1,0 +1,44 @@
+Responsabilidade da AWS ou Cliente: proteger data centers, servidores e redes utilizadas pelos serviços?
+AWS
+
+Responsabilidade da AWS ou Cliente: manutenção de regiões e zonas de disponibilidade?
+AWS
+
+Responsabilidade da AWS ou Cliente: security of cloud?
+AWS
+
+Responsabilidade da AWS ou Cliente: security in cloud?
+Cliente 
+
+Responsabilidade da AWS ou Cliente: gerenciamento e controle da camada de virtualização?
+AWS
+
+Responsabilidade da AWS ou Cliente: aplicação de patches na infraestrutura?
+AWS 
+
+Responsabilidade da AWS ou Cliente: documentação de conformidade e controle herdado?
+AWS 
+
+Responsabilidade da AWS ou Cliente: gerenciamento do sistema operacional em EC2?
+Cliente
+
+Responsabilidade da AWS ou Cliente: atualizações e patches no SO de um EC2?
+Cliente 
+
+Responsabilidade da AWS ou Cliente: configuração de firewall e security groups?
+Cliente
+
+Responsabilidade da AWS ou Cliente: criptografia e privacidade de dados?
+Cliente
+
+Responsabilidade da AWS ou Cliente: gerenciamento de permissões no IAM?
+Cliente
+
+Responsabilidade da AWS ou Cliente: roteamento de dados em zonas de segurança?
+Cliente
+
+Responsabilidade da AWS ou Cliente: implementação de frameworks de segurança?
+Cliente 
+
+Responsabilidade da AWS ou Cliente: configurações de BD, SO e aplicações?
+Cliente

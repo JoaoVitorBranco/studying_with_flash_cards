@@ -83,7 +83,7 @@ def generate_cardlist():
             questions_name = ''
             while(questions_name not in list_of_questions):
                 questions_name = input(f"# Enter the name of the package folder that you want to import. Select one of those files {list_of_questions}: ")
-            list_of_questions = [questions_name + "/" + question.replace('.txt', '') for question in os.listdir("questions/"+questions_name)]
+            list_of_questions = [question.replace('.txt', '') for question in os.listdir("questions/" + questions_name)]
             questions_name = ''
             while(questions_name not in list_of_questions):
                 questions_name = input(f"# Enter the name of the package file that you want to import. Select one of those files {list_of_questions}: ")
