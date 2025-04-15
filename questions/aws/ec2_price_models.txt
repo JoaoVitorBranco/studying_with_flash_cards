@@ -1,0 +1,32 @@
+Qual modelo de cobrança do EC2 oferece máxima flexibilidade sem compromisso de longo prazo?
+On-Demand Instances
+
+Qual modelo de cobrança EC2 é mais indicado para workloads imprevisíveis ou de curto prazo?
+On-Demand Instances
+
+Qual modelo EC2 permite economizar até 72% com compromisso de uso por 1 ou 3 anos, mantendo flexibilidade de tipos de instância e região?
+Savings Plans (Compute Savings Plans)
+
+Qual modelo EC2 oferece maior economia, mas pode ser interrompido a qualquer momento pela AWS?
+Spot Instances
+
+Qual modelo EC2 é ideal para workloads tolerantes a falhas, como processamento em lote ou testes?
+Spot Instances
+
+Qual modelo EC2 reserva capacidade em hardware físico exclusivo para o cliente?
+Dedicated Hosts
+
+Qual modelo de cobrança EC2 é mais adequado para requisitos de licenciamento específico e conformidade regulatória?
+Dedicated Hosts
+
+Qual modelo EC2 exige escolher uma configuração específica e manter por 1 ou 3 anos para obter desconto?
+Reserved Instances
+
+Qual modelo EC2 pode ser dividido entre Standard e Convertible?
+Reserved Instances
+
+Qual modelo EC2 é mais flexível entre os que exigem compromisso, permitindo uso com diferentes serviços e regiões?
+Savings Plans
+
+Qual modelo EC2 pode ser usado para workloads consistentes, previsíveis e de longa duração como produção estável?
+Reserved Instances ou Savings Plans
