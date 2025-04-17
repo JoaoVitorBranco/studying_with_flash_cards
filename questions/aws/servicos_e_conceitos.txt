@@ -17,7 +17,7 @@ O que é: AMI
 Imagem que contém o SO, apps e configs usadas para lançar instâncias EC2 padronizadas e repetíveis.
 
 O que é: AWS Lambda
-Executa código sob demanda com cobrança por milissegundos; exemplo clássico de serverless.
+Executa código sob demanda com cobrança por milissegundos e por numero de requets; exemplo clássico de serverless.
 
 O que é: AWS Storage Gateway
 Serviço híbrido que conecta armazenamento on-premises à nuvem AWS, ideal para backup e arquivamento.
@@ -299,7 +299,7 @@ O que é: AWS CodePipeline
 Orquestra o CI/CD completo, conectando etapas de source, build, test e deploy com automação total.
 
 O que é: AWS Control Tower
-Cria e gerencia ambientes multi-conta com governança automatizada, usando guardrails e landing zones.
+Cria e gerencia ambientes multi-conta com governança automatizada, usando guardrails e landing zones, diferente do Organizations ele entrega estrutura pronta.
 
 O que é: AWS Outposts
 Leva infraestrutura da AWS para seu data center local, oferecendo uma experiência de nuvem híbrida integrada.
