@@ -297,3 +297,9 @@ Automatiza o deploy de aplicações em EC2, Lambda e ECS com suporte a rollback 
 
 O que é: AWS CodePipeline
 Orquestra o CI/CD completo, conectando etapas de source, build, test e deploy com automação total.
+
+O que é: AWS Control Tower
+Cria e gerencia ambientes multi-conta com governança automatizada, usando guardrails e landing zones.
+
+O que é: AWS Outposts
+Leva infraestrutura da AWS para seu data center local, oferecendo uma experiência de nuvem híbrida integrada.
