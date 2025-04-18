@@ -1,0 +1,17 @@
+O que é esta estratégia dos 6Rs: Rehost
+Migra como está (rápido), ex: mudar aplicação para EC2
+
+O que é esta estratégia dos 6Rs: Replatform
+Migra com pequenas melhorias, ex: alterar banco para RDS, ou gerenciar aplicação com Elastic Beanstalk
+
+O que é esta estratégia dos 6Rs: Repurchase
+Troca por novo software, geralmente SaaS, ex: mudar servidor de e-mails antigos para Amazon WorkMail
+
+O que é esta estratégia dos 6Rs: Refactor
+Redesenha totalmente (cloud-native), ex: mudar de monolito para microserviços ou serverless
+
+O que é esta estratégia dos 6Rs: Retire
+Desliga o que não é mais útil, ex: desligar sistemas duplicados ou antigos que ninguém mais usa
+
+O que é esta estratégia dos 6Rs: Retain
+Mantém por enquanto, sem migrar, ex: sem urgência / benefício imediato da migração
