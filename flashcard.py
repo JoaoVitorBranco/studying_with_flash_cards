@@ -128,7 +128,7 @@ def main():
                         input("# Press enter to see the answer")
                         print("R: " + card.answer)
                         answer = input("# Yay/Nay? ")
-                        if(answer.lower() in ["yay", "y", "yes", "sim", "s", "ya"]):
+                        if(answer.lower() in ["yay", "y", "yes", "sim", "s", "ya", ""]):
                             list_of_rights[idx] = True
                         idx_card_round += 1
                 if(all(list_of_rights)):

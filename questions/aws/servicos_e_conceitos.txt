@@ -2,7 +2,7 @@ O que é: AWS Elastic Beanstalk
 Plataforma PaaS para deploy automático de apps web, sem gerenciar infraestrutura.
 
 O que é: AWS Auto Scaling
-Ajusta automaticamente recursos (como EC2) com base na demanda para performance e economia.
+Ajusta automaticamente instâncias com base na demanda para performance e economia.
 
 O que é: AWS Fargate
 Serviço serverless que executa containers com ECS/EKS sem precisar gerenciar servidores.
@@ -20,7 +20,7 @@ O que é: AWS Lambda
 Executa código sob demanda com cobrança por milissegundos e por numero de requets; exemplo clássico de serverless.
 
 O que é: AWS Storage Gateway
-Serviço híbrido que conecta armazenamento on-premises à nuvem AWS, ideal para backup e arquivamento.
+Acesso a armazenamento virtual praticamente ilimitado à aplicações on-premises
 
 O que é: Amazon Instance Store
 Armazenamento temporário vinculado à instância EC2, apagado ao reiniciar ou encerrar, com rapida operacões de leitura e escrita.
@@ -50,7 +50,7 @@ O que é: Amazon RDS
 Serviço gerenciado de banco de dados relacional (MySQL, PostgreSQL, Oracle, etc.) com backups e alta disponibilidade. Possui aplicação automática de patches e backups automáticos.
 
 O que é: Multi-AZ Deployment
-Configuração do Amazon RDS para uamentar disponibilidade e tolerância a falhas ao replicar BD para outra instância em outra AZ.
+Configuração do Amazon RDS para aumentar disponibilidade e tolerância a falhas ao replicar BD para outra instância em outra AZ.
 
 O que é: AWS Global Accelerator
 Otimiza rotas de tráfego global usando a rede da AWS para melhorar performance e disponibilidade.
