@@ -1,8 +1,8 @@
 O que é: AWS Elastic Beanstalk
-Plataforma PaaS para deploy automático de apps web, sem gerenciar infraestrutura.
+Plataforma PaaS para deploy automático de apps web, sem gerenciar infraestrutura. Sem custos adicionais no uso do Beanstalk, apenas nos recursos necessários.
 
 O que é: AWS Auto Scaling
-Ajusta automaticamente instâncias com base na demanda para performance e economia.
+Ajusta automaticamente instâncias com base na demanda para performance e economia. Sem custos adicionais no uso do Auto Scaling, apenas nos recursos necessários para rodar a aplicação e taxas com monitoramento do CloudWatch.
 
 O que é: AWS Fargate
 Serviço serverless que executa containers com ECS/EKS sem precisar gerenciar servidores.
