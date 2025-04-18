@@ -303,3 +303,6 @@ Cria e gerencia ambientes multi-conta com governança automatizada, usando guard
 
 O que é: AWS Outposts
 Leva infraestrutura da AWS para seu data center local, oferecendo uma experiência de nuvem híbrida integrada.
+
+O que é: SCPs (Service Control Policies)
+Restringem permissões máximas que contas da AWS podem ter dentro do AWS Organizations, sem conceder acesso diretamente.
