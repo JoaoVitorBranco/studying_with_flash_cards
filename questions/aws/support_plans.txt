@@ -1,0 +1,35 @@
+Qual o custo de cada plano de suporte da AWS?
+O plano Basic é gratuito, enquanto os planos Developer, Business e Enterprise são pagos.
+
+Todos os planos oferecem atendimento ao cliente 24h?
+Sim, todos os planos — Basic, Developer, Business e Enterprise — oferecem atendimento ao cliente 24 horas, com acesso à central de suporte, documentação e fóruns da AWS.
+
+Qual o nível de acesso ao AWS Trusted Advisor em cada plano?
+Os planos Basic e Developer têm acesso apenas às 6 verificações principais (Core Checks). Já os planos Business e Enterprise têm acesso completo ao Trusted Advisor, com todas as verificações de segurança, performance e custo.
+
+Todos os planos têm acesso ao AWS Health Dashboard?
+Os planos Basic e Developer têm acesso ao dashboard com informações sobre regiões e zonas de disponibilidade, além de notificações. Os planos Business e Enterprise também oferecem acesso via API, permitindo monitoramento automatizado da saúde da infraestrutura.
+
+Todos os planos incluem suporte técnico?
+Não. O plano Basic não inclui suporte técnico. O plano Developer oferece suporte por e-mail durante horário comercial. Os planos Business e Enterprise oferecem suporte técnico 24/7 via chat, e-mail e telefone. No Enterprise, o suporte é prioritário.
+
+Todos os planos permitem abrir casos ilimitados?
+O plano Basic não permite abertura de casos. O Developer permite abrir casos, mas sem acesso programático usando IAM. Já os planos Business e Enterprise permitem abertura de casos ilimitados com acesso completo e programático via API.
+
+Qual o tempo de resposta para casos críticos em cada plano?
+O Basic não oferece suporte técnico. O Developer tem tempo de resposta de até 12 horas para casos críticos. O Business responde em até 1 hora, e o Enterprise oferece resposta prioritária em até 15 minutos.
+
+Todos os planos oferecem suporte para arquitetura de soluções?
+O plano Basic não oferece esse suporte. O Developer oferece orientações gerais. O Business oferece suporte técnico especializado em arquitetura, e o Enterprise inclui esse suporte com arquitetos dedicados.
+
+Quais planos incluem acesso à AWS Support API?
+Apenas os planos Business e Enterprise oferecem acesso à AWS Support API para gerenciamento programático de casos de suporte. Os planos Basic e Developer não oferecem esse recurso.
+
+Existe suporte para software de terceiros?
+Sim, mas apenas nos planos Business e Enterprise, que oferecem suporte ao mesmo nível para softwares de terceiros. Os planos Basic e Developer não incluem esse tipo de suporte.
+
+Quem tem acesso ao AWS Concierge Support Team (VIP)?
+Apenas o plano Enterprise inclui acesso ao AWS Concierge Support Team, um suporte VIP com assistência especializada para questões de faturamento e conta. Os demais planos não oferecem esse benefício.
+
+Quem pode contar com planejamento para eventos críticos (IEM)?
+Somente o plano Enterprise oferece suporte ao IEM (Infrastructure Event Management), para ajudar a preparar e gerenciar grandes eventos como lançamentos ou picos de tráfego. Esse recurso não está disponível nos demais planos.
