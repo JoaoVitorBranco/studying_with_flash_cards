@@ -306,3 +306,18 @@ Leva infraestrutura da AWS para seu data center local, oferecendo uma experiênc
 
 O que é: SCPs (Service Control Policies)
 Restringem permissões máximas que contas da AWS podem ter dentro do AWS Organizations, sem conceder acesso diretamente.
+
+O que é: AWS IAM Identity Center (AWS SSO)
+Centralização da autenticação dos usuários com uso de SSO, permitindo o acesso a várias contas com única credencial segura (- senhas = - risco de segurança).
+
+O que é: IAM User
+Identidade individual com credenciais, usada por pessoas para acessar recursos AWS.
+
+O que é: IAM User Group
+Conjunto de usuários com permissões compartilhadas via políticas.
+
+O que é: IAM Policy
+Documento JSON que define: X entidade pode fazer Y ação com Z recurso em W condições/tempo.
+
+O que é: IAM Role
+Identidade com permissões assumida temporariamente por usuários ou serviços, sem credenciais permanentes.
