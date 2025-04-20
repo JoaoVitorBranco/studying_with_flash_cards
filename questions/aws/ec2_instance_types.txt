@@ -1,0 +1,74 @@
+Para que servem as instâncias General Purpose na AWS?
+São instâncias equilibradas em CPU, memória e rede, ideais para uma variedade de casos de uso gerais.
+
+Quando devo usar Compute Optimized Instances na AWS?
+Quando você precisa de alto desempenho de CPU, como em processamento em lote, transcodificação de mídia e jogos dedicados.
+
+Qual o foco das instâncias Memory Optimized da AWS?
+São ideais para workloads com uso intensivo de memória, como análise em tempo real de Big Data, cache in-memory e bancos de dados open source.
+
+O que são Accelerated Computing Instances na AWS?
+Instâncias com aceleradores de hardware (como GPU), voltadas para machine learning, reconhecimento de voz, gráficos e veículos autônomos.
+
+Quando usar Storage Optimized Instances na AWS?
+Quando o workload exige altas taxas de leitura e escrita em grandes volumes de dados, como bancos de dados transacionais, motores de busca e streaming de dados.
+
+Para que servem as instâncias HPC (High Performance Computing)?
+São otimizadas para cargas de trabalho de HPC em larga escala, como previsão do tempo, simulações moleculares e testes de colisão.
+
+Qual instância EC2 é ideal para aplicações web ou corporativas com uso equilibrado de recursos?
+General Purpose Instances
+
+Qual tipo de instância EC2 é mais adequado para processamento em lote (batch processing)?
+Compute Optimized Instances
+
+Qual instância EC2 é ideal para transcodificação de mídia (media transcoding)?
+Compute Optimized Instances
+
+Qual instância EC2 você deve usar para serviços de jogos dedicados (dedicated gaming services)?
+Compute Optimized Instances
+
+Qual instância EC2 é recomendada para análise de Big Data em tempo real (real-time Big Data analytics)?
+Memory Optimized Instances
+
+Qual tipo de instância é ideal para uso com cache in-memory?
+Memory Optimized Instances
+
+Qual tipo de instância EC2 é ideal para execução de bancos de dados open source com muita carga de memória?
+Memory Optimized Instances
+
+Qual instância EC2 é recomendada para aplicações de machine learning?
+Accelerated Computing Instances
+
+Qual instância EC2 é mais indicada para reconhecimento de fala (speech recognition)?
+Accelerated Computing Instances
+
+Qual instância EC2 deve ser usada para processamento gráfico (graphic processing)?
+Accelerated Computing Instances
+
+Qual instância EC2 você deve usar para correspondência de padrões em dados (data pattern matching)?
+Accelerated Computing Instances
+
+Qual tipo de instância EC2 é ideal para cargas de trabalho em veículos autônomos?
+Accelerated Computing Instances
+
+Qual instância EC2 é mais adequada para bancos de dados transacionais com alta leitura/escrita?
+Storage Optimized Instances
+
+Qual tipo de instância EC2 é recomendada para motores de busca (search engines)?
+Storage Optimized Instances
+
+Qual instância EC2 deve ser escolhida para aplicações de streaming de dados?
+Storage Optimized Instances
+
+Qual instância EC2 é mais apropriada para previsão do tempo (weather forecasting)?
+High Performance Computing (HPC)
+
+Qual tipo de instância EC2 é ideal para simulações moleculares (molecular dynamics)?
+High Performance Computing (HPC)
+
+Qual instância EC2 é indicada para simulações de colisão (crash simulations)?
+High Performance Computing (HPC)
+
+Qual instância EC2 você deve escolher para aplicações com uso equilibrado de CPU, memória e rede?
+General Purpose Instances

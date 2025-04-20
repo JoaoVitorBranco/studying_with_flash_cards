@@ -134,6 +134,8 @@ def main():
                     not_full_right = False
                 print(f"\n# You got {list_of_rights.count(True)}/{len(list_of_rights)} right answers")
             print("# You have answered all questions right =D\n")
+            print("# Cleaning deck of questions...")
+            cardList.clean()
         elif op == "2":
             cardList.show()
         elif op == "4":
