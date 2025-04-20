@@ -1,0 +1,30 @@
+Qual política de roteamento usar para encaminhar requisições para apenas um recurso simples, sem lógica adicional?
+Simple Routing
+
+Qual política usar para balancear carga entre múltiplos servidores com percentuais definidos manualmente?
+Weighted Routing
+
+Qual política permite realizar testes A/B ou blue/green deployments controlando a porcentagem de tráfego?
+Weighted Routing
+
+Qual política deve ser usada para redirecionar tráfego automaticamente para um recurso de backup se o principal falhar?
+Failover Routing
+
+Qual política usa verificações de saúde (health checks) para decidir qual destino está apto a receber tráfego?
+Failover Routing
+
+Qual política garante que os usuários sejam direcionados à região com menor latência?
+Latency Routing
+
+Qual política deve ser usada para oferecer melhor desempenho global?
+Latency Routing
+
+Qual política é ideal para direcionar usuários com base em sua localização geográfica específica (país, continente, estado)?
+Geolocation Routing
+
+Qual política é usada para restringir acesso a regiões específicas ou exibir conteúdo localizado?
+Geolocation Routing
+
+Qual política é mais simples e adequada para aplicações pequenas com um único ponto de entrada?
+Simple Routing
+

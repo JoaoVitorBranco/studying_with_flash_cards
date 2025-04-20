@@ -134,7 +134,11 @@ def main():
                     not_full_right = False
                 print(f"\n# You got {list_of_rights.count(True)}/{len(list_of_rights)} right answers")
             print("# You have answered all questions right =D\n")
-            print("# Cleaning deck of questions...")
+            y_n = input("# Do you want to erase the deck used (Y/N)?: ")
+            if(y_n.lower() in ["yay", "y", "yes", "sim", "s", "ya", ""]):
+                print("# Cleaning data...")
+                cardList.clean()
+            print("\n")
             cardList.clean()
         elif op == "2":
             cardList.show()
