@@ -88,7 +88,6 @@ def generate_cardlist():
             while(questions_name not in list_of_questions):
                 questions_name = input(f"# Enter the name of the package file that you want to import. Select one of those files {list_of_questions}: ")
             questions_name = package_name + '/' + questions_name
-            cardList.clean()
             ok = cardList.import_file(questions_name)
             if not ok:
                 print("# You already have cards in your list or the file is wrong formatted")

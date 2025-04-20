@@ -50,7 +50,7 @@ O que é: Amazon RDS
 Serviço gerenciado de banco de dados relacional (MySQL, PostgreSQL, Oracle, etc.) com backups e alta disponibilidade. Possui aplicação automática de patches e backups automáticos.
 
 O que é: Multi-AZ Deployment
-Configuração do Amazon RDS para aumentar disponibilidade e tolerância a falhas ao replicar BD para outra instância em outra AZ.
+Configuração do Amazon RDS para aumentar disponibilidade e tolerância a falhas ao replicar BD para outra instância em outra AZ de forma SÍNCRONA.
 
 O que é: AWS Global Accelerator
 Otimiza rotas de tráfego global usando a rede da AWS para melhorar performance e disponibilidade.
