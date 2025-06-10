@@ -1,0 +1,23 @@
+O que representa o valor "principal" em uma aplicação?
+É o valor inicial investido.
+
+Qual é a taxa nominal em um investimento?
+É a taxa de juros total informada, sem descontar inflação ou taxas.
+
+O que a inflação representa no cálculo do rendimento?
+A perda do poder de compra, que deve ser descontada para obter o rendimento real.
+
+O que é a taxa de administração?
+É uma taxa cobrada pela instituição financeira para gerir o investimento.
+
+Como o Imposto de Renda incide sobre a aplicação?
+É cobrado sobre o valor do rendimento, e não sobre o valor total.
+
+Qual é a ordem de cálculo para descobrir o rendimento líquido real?
+1. Calcular o valor bruto com juros; 2. Subtrair a inflação; 3. Subtrair taxa de administração; 4. Subtrair imposto de renda.
+
+Dado um investimento de R$1000, com taxa nominal de 12%, inflação de 5,9%, taxa de administração de 1,5% e IR de 17,5%, qual o rendimento líquido real?
+Rendimento bruto = 1000 + (12% de 1000) = 1120; Inflação = 5,9% de 1000 = 59; Taxa de administração = 1,5% de 1200 = 18; IR = 17,5% de 120 = 21; Rendimento líquido real = 1120 - 59 - 18 - 21 = 1022
+
+Por que é importante calcular o rendimento líquido real?
+Para saber quanto o investimento realmente rendeu após descontar todos os custos e perdas de valor pela inflação.

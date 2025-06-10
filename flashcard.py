@@ -139,7 +139,6 @@ def main():
                 print("# Cleaning data...")
                 cardList.clean()
             print("\n")
-            cardList.clean()
         elif op == "2":
             cardList.show()
         elif op == "4":

@@ -1,0 +1,35 @@
+O que são trade offs no financiamento do déficit?
+São escolhas que o governo precisa fazer, cada uma com suas vantagens e desvantagens econômicas.
+
+Quais são as quatro principais formas de financiar o déficit?
+1) Emissão de moeda, 2) Aumento de tributos, 3) Dívida externa, 4) Dívida interna (em títulos públicos).
+
+Qual a vantagem da emissão de moeda?
+É uma forma rápida de obter recursos.
+
+Qual a desvantagem da emissão de moeda?
+Gera inflação e perda de poder de compra da população.
+
+Qual a vantagem do aumento de tributos?
+Não gera inflação e aumenta a arrecadação direta.
+
+Qual a desvantagem do aumento de tributos?
+Reduz o crescimento econômico e a competitividade.
+
+Qual a vantagem da dívida externa?
+Possui juros baixos e não prejudica diretamente o consumo interno.
+
+Qual a desvantagem da dívida externa?
+É feita em moeda forte, e o valor da dívida cresce se o câmbio subir.
+
+Qual a vantagem da dívida interna (em títulos)?
+Evita exposição ao câmbio e utiliza moeda nacional.
+
+Qual a desvantagem da dívida interna?
+Os juros são altos, pois são baseados na SELIC.
+
+O que são títulos públicos?
+São promessas de pagamento futuro emitidas pelo governo para captar recursos no presente.
+
+Qual o impacto de emitir muitos títulos públicos?
+Aumenta a dívida interna e pressiona os juros, tornando o financiamento mais caro.

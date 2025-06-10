@@ -20,7 +20,7 @@ O que é: AWS Lambda
 Executa código sob demanda com cobrança por milissegundos e por numero de requets; exemplo clássico de serverless.
 
 O que é: AWS Storage Gateway
-Acesso a armazenamento virtual praticamente ilimitado à aplicações on-premises
+Acesso a armazenamento virtual praticamente ilimitado à aplicações on-premises DE FORMA CRIPTOGRAFADA por default.
 
 O que é: Amazon Instance Store
 Armazenamento temporário vinculado à instância EC2, apagado ao reiniciar ou encerrar, com rapida operacões de leitura e escrita.
@@ -29,10 +29,10 @@ O que é: Amazon EBS
 Volume de armazenamento em bloco persistente para EC2, ideal para bancos de dados e aplicações críticas, apenas para 1 EC2 e em uma única AZ.
 
 O que é: Amazon EFS
-Sistema de arquivos elástico e compartilhado, acessível por múltiplas instâncias simultaneamente, pode ser compartilhado entre várias EC2 e em várias AZs da mesma região.
+Sistema de arquivos elástico e compartilhado, acessível por múltiplas instâncias simultaneamente, pode ser compartilhado entre várias EC2 e em várias AZs, VPCs e Regiões.
 
 O que é: Amazon S3
-Armazenamento de objetos escalável e durável, com alta disponibilidade e uso amplo em backup e data lakes.
+Armazenamento de objetos escalável e durável, com alta disponibilidade e uso amplo em backup e data lakes DE FORMA CRIPTOGRAFADA por default.
 
 O que é: Amazon Neptune
 Banco de dados em grafo para modelar relacionamentos complexos, foco nos relacionamento.
@@ -86,13 +86,13 @@ O que é: Amazon VPC
 Rede virtual privada onde você define sua própria topologia de rede dentro da AWS.
 
 O que é: Security Group e NACL
-SG atuam como firewalls em nível de instância, apenas com regras ALLOW em EC2, enquanto o NACL são lista de controles de acesso em nível de sub-rede, com regras de ALLOW e DENY.
+SG atuam como firewalls em nível de instância, apenas com regras ALLOW em EC2, e são STATEFUL, enquanto o NACL são lista de controles de acesso em nível de sub-rede, com regras de ALLOW e DENY, sendo STATELESS
 
 O que é: AWS Regions
 Localizações geográficas que contêm múltiplas zonas de disponibilidade (AZs) independentes - no mínimo 3.
 
 O que é: AWS Direct Connect
-Conexão de rede física dedicada entre seu data center e a AWS, com alta performance e baixa latência.
+Conexão de rede física dedicada entre seu data center e a AWS, com alta performance e baixa latência, sem critpografia.
 
 O que é: AWS Site-to-Site VPN
 Cria uma conexão segura via internet entre seu data center on-premises e a VPC da AWS usando IPsec.
@@ -173,7 +173,7 @@ O que é: Amazon Athena
 Serviço serverless para consultas SQL diretas em dados armazenados no Amazon S3.
 
 O que é: AWS Systems Manager
-Central de gerenciamento de recursos que permite automatizar tarefas operacionais e manter conformidade.
+Central de gerenciamento de recursos que permite automatizar tarefas operacionais e manter conformidade, podendo gerenciar Cloud e On-Premise.
 
 O que é: AWS Systems Manager Session Manager
 Acesso seguro a instâncias EC2 via console, sem necessidade de SSH ou chaves.
@@ -263,7 +263,7 @@ O que é: Amazon Snowball Edge
 Versão do Snowball com poder de computação local para processar dados no local.
 
 O que é: AWS DataSync
-Transfere grandes volumes de dados entre armazenamento local e AWS com alta velocidade.
+Transfere grandes volumes de dados entre armazenamento local e AWS com alta velocidade de forma criptografada.
 
 O que é: AWS Transfer Family
 Transfere arquivos para o Amazon S3 usando protocolos tradicionais como SFTP, FTPS e FTP.
@@ -321,3 +321,27 @@ Documento JSON que define: X entidade pode fazer Y ação com Z recurso em W con
 
 O que é: IAM Role
 Identidade com permissões assumida temporariamente por usuários ou serviços, sem credenciais permanentes.
+
+O que é: AWS VPN
+Serviço usado para estabelecer uma conexão segura entre múltiplas localizações on-premises e recursos da AWS, onde os dados são criptografados em trânsito.
+
+O que significa: scale in?
+Diminuir número de instâncias
+
+O que significa: scale out?
+Aumentar número de instâncias
+
+O que significa: scale up?
+Aumentar número de recursos computacionais de uma instância
+
+O que significa: scale down?
+Diminuir número de recursos computacionais de uma instância
+
+O que é: Amazon ECR?
+Serviço que armazena, configura e dá deploy em imagens de container Docker. Não é responsável por rodar as aplicações.
+
+O que é: Amazon ECS?
+Serviço que roda, para e configura imagens Docker em um cluster, no qual pode configurar underlying servers.
+
+O que é: Read Replicas?
+Cópias de RDS somente leitura para escalabilidade de leitura, com replicação assíncrona; ideal para aliviar carga de leitura sem impacto na instância principal.

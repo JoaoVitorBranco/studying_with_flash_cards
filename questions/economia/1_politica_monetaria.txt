@@ -1,0 +1,32 @@
+Qual é a principal função do Banco Central?
+Controlar a política monetária e manter a estabilidade da moeda e da inflação.
+
+O que significa o Banco Central ser autônomo?
+Que seu presidente tem mandato fixo e não pode ser demitido pelo presidente da República, garantindo independência política.
+
+Como é nomeado o presidente do Banco Central?
+É indicado pelo Presidente da República e aprovado pelo Senado.
+
+Por que a autonomia do Banco Central é importante?
+Permite tomar decisões econômicas sem pressões políticas, mesmo que desagradem o governo atual.
+
+O que é a taxa SELIC?
+É a taxa básica de juros da economia brasileira, usada como referência para todas as outras taxas do mercado.
+
+Qual o valor aproximado da SELIC em 2024?
+14,75% ao ano.
+
+Como a SELIC influencia outras taxas do mercado?
+Todas as demais taxas são maiores que a SELIC, pois ela é a base mínima de remuneração dos títulos públicos.
+
+O que é a taxa nominal de juros?
+É a taxa informada diretamente, sem descontar a inflação.
+
+O que é a taxa real de juros?
+É a taxa efetiva de retorno de um investimento, descontando os efeitos da inflação.
+
+Qual a fórmula simples da taxa real?
+Taxa real = Taxa nominal - Inflação
+
+Qual a fórmula de Fisher para taxa real?
+Taxa_real = [(1 + (Taxa_nominal / 100)) / (1 + (inflação / 100)) - 1] × 100

@@ -1,0 +1,23 @@
+Quais tributos no Brasil costumam ser calculados de forma diferenciada?
+ICMS, IPI e alguns casos de Imposto de Renda.
+
+O que significa cálculo "por fora"?
+O imposto é adicionado ao valor base do produto; ex: R$100 + 18% = R$118.
+
+Como se calcula o imposto "por fora"?
+Multiplica-se o valor base pelo percentual do imposto e soma ao preço: Preço Final = Base + (Imposto%).
+
+O que significa cálculo "por dentro"?
+O imposto já está incluso no valor total do produto; exige regra de três para encontrar a base de cálculo.
+
+Como se faz o cálculo "por dentro" com imposto de 18% e valor final de R$1000?
+Base = 1000 ÷ 0,82 = R$1219,51 (pois 82% representa o valor líquido de um total com 18% de imposto).
+
+Qual a fórmula da base de cálculo em imposto "por dentro"?
+Base = Valor final ÷ (1 - alíquota em decimal)
+
+Dado um produto com valor final de R$1000 e ICMS de 18%, qual é o valor do imposto?
+Base = 1000 ÷ 0,82 = 1219; Imposto = 1219 - 1000 = R$219
+
+Qual a diferença entre os dois tipos de cálculo?
+"Por fora" é direto e transparente; "por dentro" exige ajuste matemático para separar o valor do tributo.

@@ -22,8 +22,8 @@ Spot Instances
 O que acontece caso uma Spot Instance tenha que ser terminada por exceder seu preço máximo?
 Ela se encerra, sem possibilidade de recuperação do usuário.
 
-Qual modelo EC2 possui desconto de 30%-60% e exige manter por 1 ou 3 anos para obter desconto?
-Reserved Instances
+Qual modelo EC2 possui desconto de 72% e exige manter por 1 ou 3 anos para obter desconto?
+Reserved Instances e Saving Plans
 
 Qual modelo de cobrança de EC2 requer compromisso e é indicada para workloads previsíveis?
 Reserved Instances
@@ -39,9 +39,6 @@ Reserved Instances
 
 Qual modelo de cobrança de EC2 cobra por preço/hora?
 Saving Plans e Reserved instances
-
-Qual modelo EC2 permite economizar até 72% com compromisso de uso por 1 ou 3 anos?
-Savings Plans 
 
 Qual modelo EC2 é mais flexível entre os que exigem compromisso, permitindo uso com diferentes serviços e regiões?
 Savings Plans

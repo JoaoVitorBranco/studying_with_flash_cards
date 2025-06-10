@@ -1,0 +1,26 @@
+O que é superávit fiscal?
+É quando a receita do governo é maior que suas despesas: Receita - Despesa > 0
+
+O que é déficit fiscal?
+É quando a despesa do governo é maior que sua receita: Receita - Despesa < 0
+
+Quais são os dois tipos principais de déficit?
+Déficit primário e déficit nominal.
+
+O que é o déficit primário?
+É o déficit calculado sem considerar os juros da dívida pública.
+
+O que é o déficit nominal?
+É o déficit que inclui os juros da dívida pública no cálculo.
+
+Por que o déficit nominal costuma ser maior que o primário?
+Porque ele soma os juros da dívida às despesas totais do governo.
+
+Quais são as três situações fiscais possíveis?
+1) Ideal: superávit primário e nominal; 2) Intermediária: primário positivo e nominal negativo; 3) Ruim: ambos negativos.
+
+O que representa o equilíbrio fiscal?
+É quando há superávit ou pelo menos déficit controlado, permitindo sustentabilidade das contas públicas.
+
+Qual é a situação atual do Brasil em relação ao déficit?
+Apresenta déficit tanto primário quanto nominal, o que compromete o equilíbrio fiscal.
